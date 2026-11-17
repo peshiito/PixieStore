@@ -14789,6 +14789,2749 @@
           ]
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "hcFPd",
+      "x": 938,
+      "y": 80,
+      "name": "M1.1 · Inicio completo (hero póster + burbujas)",
+      "clip": true,
+      "width": 390,
+      "fill": "#F5EEDD",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "xH4GV",
+          "name": "Hero",
+          "width": 390,
+          "height": 844,
+          "fill": {
+            "type": "shader",
+            "enabled": true,
+            "url": "assets/shaders/pixie-bubbles.glsl",
+            "uniforms": {
+              "u_bg": "#F5EEDD",
+              "u_bubble": "#84B3CE",
+              "u_wave": "#D8DFD9",
+              "u_waveHeight": 0.1,
+              "u_speed": 1
+            }
+          },
+          "layout": "none",
+          "children": [
+            {
+              "type": "frame",
+              "id": "GgXeP",
+              "x": 0,
+              "y": 0,
+              "name": "Navbar (única)",
+              "width": 390,
+              "padding": [
+                14,
+                16
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "lrFUd",
+                  "name": "Nav pill",
+                  "fill": "#FFFFFF99",
+                  "cornerRadius": 999,
+                  "stroke": "#84B3CE66",
+                  "strokeWidth": 1,
+                  "gap": 2,
+                  "padding": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "axXg3",
+                      "name": "Nav Inicio",
+                      "fill": "#16587B",
+                      "cornerRadius": 999,
+                      "padding": [
+                        9,
+                        14
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "MEVWi",
+                          "name": "Label",
+                          "fill": "#F5EEDD",
+                          "content": "Inicio",
+                          "fontFamily": "Nunito",
+                          "fontSize": 14,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Dg7Jp",
+                      "name": "Nav Productos",
+                      "fill": "#00000000",
+                      "cornerRadius": 999,
+                      "padding": [
+                        9,
+                        14
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "WZ9p2",
+                          "name": "Label",
+                          "fill": "#16587B",
+                          "content": "Productos",
+                          "fontFamily": "Nunito",
+                          "fontSize": 14,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "yOr05",
+                      "name": "Nav Pedidos",
+                      "fill": "#00000000",
+                      "cornerRadius": 999,
+                      "padding": [
+                        9,
+                        14
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "x7GgOS",
+                          "name": "Label",
+                          "fill": "#16587B",
+                          "content": "Pedidos",
+                          "fontFamily": "Nunito",
+                          "fontSize": 14,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "TVBEe",
+                  "name": "Cart button",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "#FFFFFF99",
+                  "cornerRadius": 999,
+                  "stroke": "#84B3CE66",
+                  "strokeWidth": 1,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "z3qVYY",
+                      "name": "Cart icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "shopping-bag",
+                      "library": "lucide",
+                      "fill": "#16587B"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "O7BTb",
+              "x": 22,
+              "y": 84,
+              "name": "Tarjeta",
+              "width": 346,
+              "height": 560,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 38,
+                  "id": "L7VIMm",
+                  "x": 30,
+                  "y": 24,
+                  "name": "Base",
+                  "fill": {
+                    "type": "shader",
+                    "enabled": true,
+                    "url": "assets/shaders/pixie-bubbles.glsl",
+                    "uniforms": {
+                      "u_bg": "#16587B",
+                      "u_bubble": "#84B3CE",
+                      "u_wave": "#16587B",
+                      "u_waveHeight": 0,
+                      "u_speed": 0.8
+                    }
+                  },
+                  "width": 290,
+                  "height": 520,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0F446255",
+                    "offset": {
+                      "x": 0,
+                      "y": 24
+                    },
+                    "blur": 40
+                  }
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 38,
+                  "id": "J71jp",
+                  "x": 186,
+                  "y": 0,
+                  "name": "Panel oreja",
+                  "fill": "#84B3CE",
+                  "width": 160,
+                  "height": 130,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0F446240",
+                    "offset": {
+                      "x": 0,
+                      "y": 10
+                    },
+                    "blur": 24
+                  }
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 38,
+                  "id": "YBc68",
+                  "x": 0,
+                  "y": 96,
+                  "name": "Panel",
+                  "fill": "#84B3CE",
+                  "width": 346,
+                  "height": 262,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0F446240",
+                    "offset": {
+                      "x": 0,
+                      "y": 10
+                    },
+                    "blur": 24
+                  }
+                },
+                {
+                  "type": "rectangle",
+                  "id": "SMLI2",
+                  "x": 186,
+                  "y": 80,
+                  "name": "Panel unión",
+                  "fill": "#84B3CE",
+                  "width": 160,
+                  "height": 40
+                },
+                {
+                  "type": "frame",
+                  "id": "P2paU",
+                  "x": 56,
+                  "y": 46,
+                  "name": "Etiqueta",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "i7IT5I",
+                      "name": "G",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "gem",
+                      "library": "lucide",
+                      "fill": "#84B3CE"
+                    },
+                    {
+                      "type": "text",
+                      "id": "V70Al",
+                      "name": "L",
+                      "fill": "#F5EEDD",
+                      "content": "Free Fire",
+                      "fontFamily": "Nunito",
+                      "fontSize": 20,
+                      "fontWeight": "900"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "FTt2g",
+                  "x": 206,
+                  "y": 26,
+                  "name": "Oreja acciones",
+                  "width": 120,
+                  "gap": 10,
+                  "justifyContent": "end",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "path",
+                      "id": "mHttP",
+                      "name": "Destello",
+                      "geometry": "M12 0c1 7 5 11 12 12-7 1-11 5-12 12-1-7-5-11-12-12 7-1 11-5 12-12z",
+                      "viewBox": [
+                        0,
+                        0,
+                        24,
+                        24
+                      ],
+                      "fill": "#16587B",
+                      "width": 30,
+                      "height": 30
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Ua28O",
+                      "name": "Play",
+                      "width": 52,
+                      "height": 52,
+                      "fill": "#16587B",
+                      "cornerRadius": 999,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0F446255",
+                        "offset": {
+                          "x": 0,
+                          "y": 6
+                        },
+                        "blur": 12
+                      },
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "ugXyS",
+                          "name": "I",
+                          "width": 24,
+                          "height": 24,
+                          "icon": "arrow-up-right",
+                          "library": "lucide",
+                          "fill": "#F5EEDD"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "PY6SO",
+                  "x": 26,
+                  "y": 128,
+                  "name": "Marca shop",
+                  "gap": 6,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "Ma62K",
+                      "name": "I",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "shopping-bag",
+                      "library": "lucide",
+                      "fill": "#F5EEDD"
+                    },
+                    {
+                      "type": "text",
+                      "id": "CoDMZ",
+                      "name": "L",
+                      "fill": "#F5EEDD",
+                      "content": "shop",
+                      "fontFamily": "Nunito",
+                      "fontSize": 17,
+                      "fontWeight": "900"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "wlowk",
+                  "x": 20,
+                  "y": 156,
+                  "name": "PIXIE",
+                  "fill": "#16587B",
+                  "content": "PIXIE",
+                  "lineHeight": 1,
+                  "fontFamily": "Modak",
+                  "fontSize": 96,
+                  "fontWeight": "normal",
+                  "letterSpacing": -2
+                },
+                {
+                  "type": "frame",
+                  "id": "mnQux",
+                  "x": 22,
+                  "y": 296,
+                  "name": "Chips",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "o7l7e",
+                      "name": "Chip 110",
+                      "fill": "#F5EEDD",
+                      "cornerRadius": 999,
+                      "stroke": "#16587B33",
+                      "strokeWidth": 1,
+                      "padding": [
+                        7,
+                        14
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "BOehD",
+                          "name": "L",
+                          "fill": "#16587B",
+                          "content": "110",
+                          "fontFamily": "Nunito",
+                          "fontSize": 13,
+                          "fontWeight": "900"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bGJhq",
+                      "name": "Chip 572",
+                      "fill": "#16587B",
+                      "cornerRadius": 999,
+                      "stroke": "#16587B",
+                      "strokeWidth": 1,
+                      "padding": [
+                        7,
+                        14
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "U17le4",
+                          "name": "L",
+                          "fill": "#F5EEDD",
+                          "content": "572",
+                          "fontFamily": "Nunito",
+                          "fontSize": 13,
+                          "fontWeight": "900"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "tpCLP",
+                  "x": 124,
+                  "y": 176,
+                  "name": "Personaje",
+                  "width": 230,
+                  "height": 368,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "assets/hero/personaje.png",
+                    "mode": "contain"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "BtNiN",
+                  "x": 56,
+                  "y": 452,
+                  "name": "Insignias",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "p0Gcox",
+                      "name": "Puntos",
+                      "width": 44,
+                      "height": 30,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "W1noEg",
+                          "x": 0,
+                          "y": 0,
+                          "name": "p",
+                          "fill": "#84B3CE99",
+                          "width": 4,
+                          "height": 4
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "E4DkKW",
+                          "x": 8,
+                          "y": 0,
+                          "name": "p",
+                          "fill": "#84B3CE99",
+                          "width": 4,
+                          "height": 4
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "l3Ovy",
+                          "x": 16,
+                          "y": 0,
+                          "name": "p",
+                          "fill": "#84B3CE99",
+                          "width": 4,
+                          "height": 4
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "mkxQ4",
+                          "x": 24,
+                          "y": 0,
+                          "name": "p",
+                          "fill": "#84B3CE99",
+                          "width": 4,
+                          "height": 4
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "E8KGbf",
+                          "x": 32,
+                          "y": 0,
+                          "name": "p",
+                          "fill": "#84B3CE99",
+                          "width": 4,
+                          "height": 4
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "doADr",
+                          "x": 40,
+                          "y": 0,
+                          "name": "p",
+                          "fill": "#84B3CE99",
+                          "width": 4,
+                          "height": 4
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "jqhVC",
+                          "x": 0,
+                          "y": 8,
+                          "name": "p",
+                          "fill": "#84B3CE99",
+                          "width": 4,
+                          "height": 4
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "JYtP2",
+                          "x": 8,
+                          "y": 8,
+                          "name": "p",
+                          "fill": "#84B3CE99",
+                          "width": 4,
+                          "height": 4
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "l5IJM6",
+                          "x": 16,
+                          "y": 8,
+                          "name": "p",
+                          "fill": "#84B3CE99",
+                          "width": 4,
+                          "height": 4
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "saIH5",
+                          "x": 24,
+                          "y": 8,
+                          "name": "p",
+                          "fill": "#84B3CE99",
+                          "width": 4,
+                          "height": 4
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "s4aDC",
+                          "x": 32,
+                          "y": 8,
+                          "name": "p",
+                          "fill": "#84B3CE99",
+                          "width": 4,
+                          "height": 4
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "UZwXg",
+                          "x": 40,
+                          "y": 8,
+                          "name": "p",
+                          "fill": "#84B3CE99",
+                          "width": 4,
+                          "height": 4
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "IQGmR",
+                          "x": 0,
+                          "y": 16,
+                          "name": "p",
+                          "fill": "#84B3CE99",
+                          "width": 4,
+                          "height": 4
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "kLTNe",
+                          "x": 8,
+                          "y": 16,
+                          "name": "p",
+                          "fill": "#84B3CE99",
+                          "width": 4,
+                          "height": 4
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "BobHn",
+                          "x": 16,
+                          "y": 16,
+                          "name": "p",
+                          "fill": "#84B3CE99",
+                          "width": 4,
+                          "height": 4
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "HRtds",
+                          "x": 24,
+                          "y": 16,
+                          "name": "p",
+                          "fill": "#84B3CE99",
+                          "width": 4,
+                          "height": 4
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "QyqZG",
+                          "x": 32,
+                          "y": 16,
+                          "name": "p",
+                          "fill": "#84B3CE99",
+                          "width": 4,
+                          "height": 4
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "vVJsC",
+                          "x": 40,
+                          "y": 16,
+                          "name": "p",
+                          "fill": "#84B3CE99",
+                          "width": 4,
+                          "height": 4
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "bPgiz",
+                          "x": 0,
+                          "y": 24,
+                          "name": "p",
+                          "fill": "#84B3CE99",
+                          "width": 4,
+                          "height": 4
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "tRBar",
+                          "x": 8,
+                          "y": 24,
+                          "name": "p",
+                          "fill": "#84B3CE99",
+                          "width": 4,
+                          "height": 4
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "mYg1Q",
+                          "x": 16,
+                          "y": 24,
+                          "name": "p",
+                          "fill": "#84B3CE99",
+                          "width": 4,
+                          "height": 4
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "C2j7MV",
+                          "x": 24,
+                          "y": 24,
+                          "name": "p",
+                          "fill": "#84B3CE99",
+                          "width": 4,
+                          "height": 4
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "m4o1w",
+                          "x": 32,
+                          "y": 24,
+                          "name": "p",
+                          "fill": "#84B3CE99",
+                          "width": 4,
+                          "height": 4
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "hjUgq",
+                          "x": 40,
+                          "y": 24,
+                          "name": "p",
+                          "fill": "#84B3CE99",
+                          "width": 4,
+                          "height": 4
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "u0G3ej",
+                      "name": "Zap",
+                      "width": 44,
+                      "height": 44,
+                      "cornerRadius": 999,
+                      "stroke": "#84B3CE",
+                      "strokeWidth": 2,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "iFK0v",
+                          "name": "I",
+                          "width": 20,
+                          "height": 20,
+                          "icon": "zap",
+                          "library": "lucide",
+                          "fill": "#84B3CE"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "mJdzb",
+              "x": 20,
+              "y": 664,
+              "name": "Pie hero",
+              "width": 350,
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "atJKc",
+                  "name": "Lead",
+                  "fill": "#16587B",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Los precios que buscás, con la mejor tienda.",
+                  "fontFamily": "Nunito",
+                  "fontSize": 17,
+                  "fontWeight": "900"
+                },
+                {
+                  "type": "frame",
+                  "id": "ZH2DV",
+                  "name": "Acciones",
+                  "width": "fill_container",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "SleHW",
+                      "name": "Btn primary",
+                      "width": "fill_container",
+                      "height": 54,
+                      "fill": "#16587B",
+                      "cornerRadius": 18,
+                      "gap": 10,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "SJLJI",
+                          "name": "L",
+                          "fill": "#F5EEDD",
+                          "content": "Comprar diamantes",
+                          "fontFamily": "Nunito",
+                          "fontSize": 17,
+                          "fontWeight": "900"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "l85jLR",
+                          "name": "I",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "arrow-right",
+                          "library": "lucide",
+                          "fill": "#F5EEDD"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "mTFLO",
+                      "name": "Btn pedido",
+                      "width": 54,
+                      "height": 54,
+                      "fill": "#F5EEDD",
+                      "cornerRadius": 18,
+                      "stroke": "#16587B",
+                      "strokeWidth": 2,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "j3wqEP",
+                          "name": "I",
+                          "width": 22,
+                          "height": 22,
+                          "icon": "package-search",
+                          "library": "lucide",
+                          "fill": "#16587B"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "doHfp",
+          "name": "Reseñas",
+          "width": "fill_container",
+          "fill": "#D8DFD9",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            28,
+            0,
+            24,
+            0
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "LlCdm",
+              "name": "Head",
+              "width": "fill_container",
+              "padding": [
+                0,
+                20
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Vae8D",
+                  "name": "Title",
+                  "fill": "#16587B",
+                  "content": "Lo que dicen",
+                  "lineHeight": 1,
+                  "fontFamily": "Modak",
+                  "fontSize": 36,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "jt8tE",
+                  "name": "Score",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "zuVup",
+                      "name": "Score line",
+                      "gap": 4,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "qAD5F",
+                          "name": "Star",
+                          "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
+                          "viewBox": [
+                            0,
+                            0,
+                            24,
+                            24
+                          ],
+                          "fill": "#E9B44C",
+                          "width": 18,
+                          "height": 18,
+                          "stroke": "#E9B44C",
+                          "strokeWidth": 1.5,
+                          "strokeLinejoin": "round"
+                        },
+                        {
+                          "type": "text",
+                          "id": "csT9y",
+                          "name": "Value",
+                          "fill": "#16587B",
+                          "content": "4,9",
+                          "fontFamily": "Nunito",
+                          "fontSize": 18,
+                          "fontWeight": "900"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "W0xMT",
+                      "name": "Count",
+                      "fill": "#2A5F7C",
+                      "content": "312 reseñas",
+                      "fontFamily": "Nunito",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "iAPHB",
+              "name": "Carrusel",
+              "clip": true,
+              "width": "fill_container",
+              "gap": 12,
+              "padding": [
+                4,
+                20,
+                8,
+                20
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "XdzEM",
+                  "name": "Review Ale M.",
+                  "width": 268,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 24,
+                  "stroke": "#84B3CE44",
+                  "strokeWidth": 1,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#16587B14",
+                    "offset": {
+                      "x": 0,
+                      "y": 6
+                    },
+                    "blur": 16
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "m0Ve5",
+                      "name": "Stars",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "WH1pm",
+                          "name": "Star",
+                          "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
+                          "viewBox": [
+                            0,
+                            0,
+                            24,
+                            24
+                          ],
+                          "fill": "#E9B44C",
+                          "width": 18,
+                          "height": 18,
+                          "stroke": "#E9B44C",
+                          "strokeWidth": 1.5,
+                          "strokeLinejoin": "round"
+                        },
+                        {
+                          "type": "path",
+                          "id": "UQL4Y",
+                          "name": "Star",
+                          "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
+                          "viewBox": [
+                            0,
+                            0,
+                            24,
+                            24
+                          ],
+                          "fill": "#E9B44C",
+                          "width": 18,
+                          "height": 18,
+                          "stroke": "#E9B44C",
+                          "strokeWidth": 1.5,
+                          "strokeLinejoin": "round"
+                        },
+                        {
+                          "type": "path",
+                          "id": "z6K8dK",
+                          "name": "Star",
+                          "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
+                          "viewBox": [
+                            0,
+                            0,
+                            24,
+                            24
+                          ],
+                          "fill": "#E9B44C",
+                          "width": 18,
+                          "height": 18,
+                          "stroke": "#E9B44C",
+                          "strokeWidth": 1.5,
+                          "strokeLinejoin": "round"
+                        },
+                        {
+                          "type": "path",
+                          "id": "S1z6Tr",
+                          "name": "Star",
+                          "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
+                          "viewBox": [
+                            0,
+                            0,
+                            24,
+                            24
+                          ],
+                          "fill": "#E9B44C",
+                          "width": 18,
+                          "height": 18,
+                          "stroke": "#E9B44C",
+                          "strokeWidth": 1.5,
+                          "strokeLinejoin": "round"
+                        },
+                        {
+                          "type": "path",
+                          "id": "etzR6",
+                          "name": "Star",
+                          "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
+                          "viewBox": [
+                            0,
+                            0,
+                            24,
+                            24
+                          ],
+                          "fill": "#E9B44C",
+                          "width": 18,
+                          "height": 18,
+                          "stroke": "#E9B44C",
+                          "strokeWidth": 1.5,
+                          "strokeLinejoin": "round"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "QguNL",
+                      "name": "Text",
+                      "fill": "#123F57",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Me llegó en 2 minutos, re confiable. Ya es mi tercera compra.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Nunito",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "mSjIu",
+                      "name": "Captura",
+                      "width": "fill_container",
+                      "height": 96,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "radial",
+                        "enabled": true,
+                        "rotation": 0,
+                        "size": {
+                          "width": 1.6,
+                          "height": 1.6
+                        },
+                        "colors": [
+                          {
+                            "color": "#A9CBDF",
+                            "position": 0
+                          },
+                          {
+                            "color": "#84B3CE",
+                            "position": 0.45
+                          },
+                          {
+                            "color": "#16587B",
+                            "position": 1
+                          }
+                        ],
+                        "center": {
+                          "y": 0.35
+                        }
+                      },
+                      "cornerRadius": 14,
+                      "gap": 8,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "r2nB8",
+                          "name": "I",
+                          "width": 26,
+                          "height": 26,
+                          "icon": "gem",
+                          "library": "lucide",
+                          "fill": "#F5EEDD"
+                        },
+                        {
+                          "type": "text",
+                          "id": "vM8DI",
+                          "name": "L",
+                          "fill": "#F5EEDD",
+                          "content": "+572 en la cuenta",
+                          "fontFamily": "Modak",
+                          "fontSize": 22,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "sE1SS",
+                      "name": "Author",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "n0XsT",
+                          "name": "Avatar",
+                          "width": 28,
+                          "height": 28,
+                          "fill": "#84B3CE55",
+                          "cornerRadius": 999,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "QB00c",
+                              "name": "Initial",
+                              "fill": "#16587B",
+                              "content": "A",
+                              "fontFamily": "Modak",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "yEmSW",
+                          "name": "Name",
+                          "fill": "#16587B",
+                          "content": "Ale M.",
+                          "fontFamily": "Nunito",
+                          "fontSize": 13,
+                          "fontWeight": "800"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Z5Gkg2",
+                          "name": "Meta",
+                          "fill": "#2A5F7C",
+                          "content": "· 110 diamantes",
+                          "fontFamily": "Nunito",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "M15nm0",
+                  "name": "Review Juli R.",
+                  "width": 268,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 24,
+                  "stroke": "#84B3CE44",
+                  "strokeWidth": 1,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#16587B14",
+                    "offset": {
+                      "x": 0,
+                      "y": 6
+                    },
+                    "blur": 16
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "OIQYm",
+                      "name": "Stars",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "BqiT3",
+                          "name": "Star",
+                          "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
+                          "viewBox": [
+                            0,
+                            0,
+                            24,
+                            24
+                          ],
+                          "fill": "#E9B44C",
+                          "width": 18,
+                          "height": 18,
+                          "stroke": "#E9B44C",
+                          "strokeWidth": 1.5,
+                          "strokeLinejoin": "round"
+                        },
+                        {
+                          "type": "path",
+                          "id": "bgaBv",
+                          "name": "Star",
+                          "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
+                          "viewBox": [
+                            0,
+                            0,
+                            24,
+                            24
+                          ],
+                          "fill": "#E9B44C",
+                          "width": 18,
+                          "height": 18,
+                          "stroke": "#E9B44C",
+                          "strokeWidth": 1.5,
+                          "strokeLinejoin": "round"
+                        },
+                        {
+                          "type": "path",
+                          "id": "g951Ef",
+                          "name": "Star",
+                          "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
+                          "viewBox": [
+                            0,
+                            0,
+                            24,
+                            24
+                          ],
+                          "fill": "#E9B44C",
+                          "width": 18,
+                          "height": 18,
+                          "stroke": "#E9B44C",
+                          "strokeWidth": 1.5,
+                          "strokeLinejoin": "round"
+                        },
+                        {
+                          "type": "path",
+                          "id": "zd960",
+                          "name": "Star",
+                          "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
+                          "viewBox": [
+                            0,
+                            0,
+                            24,
+                            24
+                          ],
+                          "fill": "#E9B44C",
+                          "width": 18,
+                          "height": 18,
+                          "stroke": "#E9B44C",
+                          "strokeWidth": 1.5,
+                          "strokeLinejoin": "round"
+                        },
+                        {
+                          "type": "path",
+                          "id": "ViNOh",
+                          "name": "Star",
+                          "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
+                          "viewBox": [
+                            0,
+                            0,
+                            24,
+                            24
+                          ],
+                          "fill": "#E9B44C",
+                          "width": 18,
+                          "height": 18,
+                          "stroke": "#E9B44C",
+                          "strokeWidth": 1.5,
+                          "strokeLinejoin": "round"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "F6uYP",
+                      "name": "Text",
+                      "fill": "#123F57",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Pagué con Chytapay y al toque tenía los diamantes en la cuenta.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Nunito",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "BXIkv",
+                      "name": "Author",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "CAMCF",
+                          "name": "Avatar",
+                          "width": 28,
+                          "height": 28,
+                          "fill": "#84B3CE55",
+                          "cornerRadius": 999,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "qPWVH",
+                              "name": "Initial",
+                              "fill": "#16587B",
+                              "content": "J",
+                              "fontFamily": "Modak",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "BAYO9",
+                          "name": "Name",
+                          "fill": "#16587B",
+                          "content": "Juli R.",
+                          "fontFamily": "Nunito",
+                          "fontSize": 13,
+                          "fontWeight": "800"
+                        },
+                        {
+                          "type": "text",
+                          "id": "mjpm1",
+                          "name": "Meta",
+                          "fill": "#2A5F7C",
+                          "content": "· 110 diamantes",
+                          "fontFamily": "Nunito",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "w3wfY",
+                  "name": "Review Nico P.",
+                  "width": 268,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 24,
+                  "stroke": "#84B3CE44",
+                  "strokeWidth": 1,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#16587B14",
+                    "offset": {
+                      "x": 0,
+                      "y": 6
+                    },
+                    "blur": 16
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "oUTWL",
+                      "name": "Stars",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "Z1wJWi",
+                          "name": "Star",
+                          "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
+                          "viewBox": [
+                            0,
+                            0,
+                            24,
+                            24
+                          ],
+                          "fill": "#E9B44C",
+                          "width": 18,
+                          "height": 18,
+                          "stroke": "#E9B44C",
+                          "strokeWidth": 1.5,
+                          "strokeLinejoin": "round"
+                        },
+                        {
+                          "type": "path",
+                          "id": "x4cDE",
+                          "name": "Star",
+                          "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
+                          "viewBox": [
+                            0,
+                            0,
+                            24,
+                            24
+                          ],
+                          "fill": "#E9B44C",
+                          "width": 18,
+                          "height": 18,
+                          "stroke": "#E9B44C",
+                          "strokeWidth": 1.5,
+                          "strokeLinejoin": "round"
+                        },
+                        {
+                          "type": "path",
+                          "id": "IoItu",
+                          "name": "Star",
+                          "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
+                          "viewBox": [
+                            0,
+                            0,
+                            24,
+                            24
+                          ],
+                          "fill": "#E9B44C",
+                          "width": 18,
+                          "height": 18,
+                          "stroke": "#E9B44C",
+                          "strokeWidth": 1.5,
+                          "strokeLinejoin": "round"
+                        },
+                        {
+                          "type": "path",
+                          "id": "ky1XF",
+                          "name": "Star",
+                          "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
+                          "viewBox": [
+                            0,
+                            0,
+                            24,
+                            24
+                          ],
+                          "fill": "#E9B44C",
+                          "width": 18,
+                          "height": 18,
+                          "stroke": "#E9B44C",
+                          "strokeWidth": 1.5,
+                          "strokeLinejoin": "round"
+                        },
+                        {
+                          "type": "path",
+                          "id": "FCAFu",
+                          "name": "Star",
+                          "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
+                          "viewBox": [
+                            0,
+                            0,
+                            24,
+                            24
+                          ],
+                          "fill": "#84B3CE55",
+                          "width": 18,
+                          "height": 18,
+                          "stroke": "#84B3CE55",
+                          "strokeWidth": 1.5,
+                          "strokeLinejoin": "round"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "jED7X",
+                      "name": "Text",
+                      "fill": "#123F57",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Todo bien, lo recomiendo.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Nunito",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "NZP5x",
+                      "name": "Author",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "E6BjjY",
+                          "name": "Avatar",
+                          "width": 28,
+                          "height": 28,
+                          "fill": "#84B3CE55",
+                          "cornerRadius": 999,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "whiBp",
+                              "name": "Initial",
+                              "fill": "#16587B",
+                              "content": "N",
+                              "fontFamily": "Modak",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "EYewD",
+                          "name": "Name",
+                          "fill": "#16587B",
+                          "content": "Nico P.",
+                          "fontFamily": "Nunito",
+                          "fontSize": 13,
+                          "fontWeight": "800"
+                        },
+                        {
+                          "type": "text",
+                          "id": "D44Tb",
+                          "name": "Meta",
+                          "fill": "#2A5F7C",
+                          "content": "· 110 diamantes",
+                          "fontFamily": "Nunito",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "jfUTu",
+              "name": "Dots",
+              "width": "fill_container",
+              "gap": 6,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 3,
+                  "id": "mzZ1p",
+                  "name": "Dot",
+                  "fill": "#16587B",
+                  "width": 18,
+                  "height": 6
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 3,
+                  "id": "v22TNB",
+                  "name": "Dot",
+                  "fill": "#84B3CE88",
+                  "width": 6,
+                  "height": 6
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 3,
+                  "id": "riTDf",
+                  "name": "Dot",
+                  "fill": "#84B3CE88",
+                  "width": 6,
+                  "height": 6
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 3,
+                  "id": "x7P9S",
+                  "name": "Dot",
+                  "fill": "#84B3CE88",
+                  "width": 6,
+                  "height": 6
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "hrqML",
+          "name": "Productos",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 10,
+          "padding": [
+            28,
+            16,
+            24,
+            16
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "KGrlK",
+              "name": "Head",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "padding": [
+                0,
+                4
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rWFmJ",
+                  "name": "Title",
+                  "fill": "#16587B",
+                  "content": "Elegí tu paquete",
+                  "lineHeight": 1,
+                  "fontFamily": "Modak",
+                  "fontSize": 36,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "qETTp",
+                  "name": "Sub",
+                  "fill": "#2A5F7C",
+                  "content": "Precios finales en pesos. Se acredita por ID.",
+                  "fontFamily": "Nunito",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "xeKCG",
+              "name": "Paquete 110",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 22,
+              "stroke": "#84B3CE44",
+              "strokeWidth": 1,
+              "gap": 14,
+              "padding": [
+                12,
+                12,
+                12,
+                16
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "fdXhI",
+                  "name": "Gemas",
+                  "width": 44,
+                  "height": 44,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "mqn91",
+                      "x": 12,
+                      "y": 12,
+                      "name": "Gem",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "gem",
+                      "library": "lucide",
+                      "fill": "#16587B"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "jke9X",
+                  "name": "Texto",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "zUlwM",
+                      "name": "Qty",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "aJWId",
+                          "name": "N",
+                          "fill": "#16587B",
+                          "content": "110",
+                          "lineHeight": 1,
+                          "fontFamily": "Modak",
+                          "fontSize": 32,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "TfxA7",
+                          "name": "U",
+                          "fill": "#2A5F7C",
+                          "content": "diamantes",
+                          "fontFamily": "Nunito",
+                          "fontSize": 13,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "BEUvc",
+                  "name": "Precio",
+                  "layout": "vertical",
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "K1J3Zr",
+                      "name": "P",
+                      "fill": "#123F57",
+                      "content": "$ 1.200",
+                      "fontFamily": "Nunito",
+                      "fontSize": 17,
+                      "fontWeight": "900"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "tVLnr",
+                  "name": "Agregar",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "#84B3CE33",
+                  "cornerRadius": 14,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "gmwOf",
+                      "name": "I",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "plus",
+                      "library": "lucide",
+                      "fill": "#16587B"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "s0ruVK",
+              "name": "Paquete 341",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 22,
+              "stroke": "#84B3CE44",
+              "strokeWidth": 1,
+              "gap": 14,
+              "padding": [
+                12,
+                12,
+                12,
+                16
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Mpbxo",
+                  "name": "Gemas",
+                  "width": 44,
+                  "height": 44,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "eECy5",
+                      "x": 12,
+                      "y": 12,
+                      "name": "Gem",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "gem",
+                      "library": "lucide",
+                      "fill": "#16587B"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "eI20d",
+                      "x": 2,
+                      "y": 20,
+                      "name": "Gem",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "gem",
+                      "library": "lucide",
+                      "fill": "#16587B"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "jCnjk",
+                  "name": "Texto",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "E7L6M",
+                      "name": "Qty",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "y2evl",
+                          "name": "N",
+                          "fill": "#16587B",
+                          "content": "341",
+                          "lineHeight": 1,
+                          "fontFamily": "Modak",
+                          "fontSize": 32,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "V4MoY6",
+                          "name": "U",
+                          "fill": "#2A5F7C",
+                          "content": "diamantes",
+                          "fontFamily": "Nunito",
+                          "fontSize": 13,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "MGtNS",
+                  "name": "Precio",
+                  "layout": "vertical",
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "g8y8Nn",
+                      "name": "P",
+                      "fill": "#123F57",
+                      "content": "$ 3.500",
+                      "fontFamily": "Nunito",
+                      "fontSize": 17,
+                      "fontWeight": "900"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "KQ3Ps",
+                  "name": "Agregar",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "#84B3CE33",
+                  "cornerRadius": 14,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "bxazI",
+                      "name": "I",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "plus",
+                      "library": "lucide",
+                      "fill": "#16587B"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "xHkxN",
+              "name": "Paquete 572",
+              "width": "fill_container",
+              "fill": "#16587B",
+              "cornerRadius": 22,
+              "stroke": "#16587B",
+              "strokeWidth": 1,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#16587B44",
+                "offset": {
+                  "x": 0,
+                  "y": 10
+                },
+                "blur": 22
+              },
+              "gap": 14,
+              "padding": [
+                12,
+                12,
+                12,
+                16
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "CjUps",
+                  "name": "Gemas",
+                  "width": 44,
+                  "height": 44,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "R5Dxuq",
+                      "x": 12,
+                      "y": 12,
+                      "name": "Gem",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "gem",
+                      "library": "lucide",
+                      "fill": "#84B3CE"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "APqAT",
+                      "x": 2,
+                      "y": 20,
+                      "name": "Gem",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "gem",
+                      "library": "lucide",
+                      "fill": "#84B3CE"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "W3SeE4",
+                      "x": 24,
+                      "y": 22,
+                      "name": "Gem",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "gem",
+                      "library": "lucide",
+                      "fill": "#84B3CE"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "OpGFn",
+                  "name": "Texto",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "xzYsf",
+                      "name": "Qty",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "kOWji",
+                          "name": "N",
+                          "fill": "#F5EEDD",
+                          "content": "572",
+                          "lineHeight": 1,
+                          "fontFamily": "Modak",
+                          "fontSize": 32,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "oIe3Q",
+                          "name": "U",
+                          "fill": "#CFE2EC",
+                          "content": "diamantes",
+                          "fontFamily": "Nunito",
+                          "fontSize": 13,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "CoZqp",
+                      "name": "Tag",
+                      "fill": "#84B3CE",
+                      "cornerRadius": 999,
+                      "padding": [
+                        2,
+                        8
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "f2rAD",
+                          "name": "L",
+                          "fill": "#0F4462",
+                          "content": "Más pedido",
+                          "fontFamily": "Nunito",
+                          "fontSize": 11,
+                          "fontWeight": "900"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "MTCtW",
+                  "name": "Precio",
+                  "layout": "vertical",
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "dJJzo",
+                      "name": "P",
+                      "fill": "#F5EEDD",
+                      "content": "$ 5.800",
+                      "fontFamily": "Nunito",
+                      "fontSize": 17,
+                      "fontWeight": "900"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "oY7XP",
+                  "name": "Agregar",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "#F5EEDD",
+                  "cornerRadius": 14,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "kxFWb",
+                      "name": "I",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "plus",
+                      "library": "lucide",
+                      "fill": "#16587B"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "vfSfE",
+              "name": "Paquete 1.166",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 22,
+              "stroke": "#84B3CE44",
+              "strokeWidth": 1,
+              "gap": 14,
+              "padding": [
+                12,
+                12,
+                12,
+                16
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "y6yeTV",
+                  "name": "Gemas",
+                  "width": 44,
+                  "height": 44,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "ZxCoN",
+                      "x": 12,
+                      "y": 12,
+                      "name": "Gem",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "gem",
+                      "library": "lucide",
+                      "fill": "#16587B"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "DwV03",
+                      "x": 2,
+                      "y": 20,
+                      "name": "Gem",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "gem",
+                      "library": "lucide",
+                      "fill": "#16587B"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "FIkLB",
+                      "x": 24,
+                      "y": 22,
+                      "name": "Gem",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "gem",
+                      "library": "lucide",
+                      "fill": "#16587B"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "u5OTlQ",
+                  "name": "Texto",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "oSisn",
+                      "name": "Qty",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "cqz5H",
+                          "name": "N",
+                          "fill": "#16587B",
+                          "content": "1.166",
+                          "lineHeight": 1,
+                          "fontFamily": "Modak",
+                          "fontSize": 32,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "LzDFg",
+                          "name": "U",
+                          "fill": "#2A5F7C",
+                          "content": "diamantes",
+                          "fontFamily": "Nunito",
+                          "fontSize": 13,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "BLmta",
+                  "name": "Precio",
+                  "layout": "vertical",
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "njl2f",
+                      "name": "P",
+                      "fill": "#123F57",
+                      "content": "$ 11.500",
+                      "fontFamily": "Nunito",
+                      "fontSize": 17,
+                      "fontWeight": "900"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Rsk65",
+                  "name": "Agregar",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "#84B3CE33",
+                  "cornerRadius": 14,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "bJYrk",
+                      "name": "I",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "plus",
+                      "library": "lucide",
+                      "fill": "#16587B"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Q0MoBc",
+              "name": "Paquete 2.398",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 22,
+              "stroke": "#84B3CE44",
+              "strokeWidth": 1,
+              "gap": 14,
+              "padding": [
+                12,
+                12,
+                12,
+                16
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "s5t1n",
+                  "name": "Gemas",
+                  "width": 44,
+                  "height": 44,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "A64NE6",
+                      "x": 12,
+                      "y": 12,
+                      "name": "Gem",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "gem",
+                      "library": "lucide",
+                      "fill": "#16587B"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "ppa7F",
+                      "x": 2,
+                      "y": 20,
+                      "name": "Gem",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "gem",
+                      "library": "lucide",
+                      "fill": "#16587B"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "I6SQrq",
+                      "x": 24,
+                      "y": 22,
+                      "name": "Gem",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "gem",
+                      "library": "lucide",
+                      "fill": "#16587B"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "Gf8Yg",
+                      "x": 8,
+                      "y": 2,
+                      "name": "Gem",
+                      "width": 14,
+                      "height": 14,
+                      "icon": "gem",
+                      "library": "lucide",
+                      "fill": "#16587B"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "HYT7I",
+                  "name": "Texto",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "w7bWN",
+                      "name": "Qty",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "lhcjV",
+                          "name": "N",
+                          "fill": "#16587B",
+                          "content": "2.398",
+                          "lineHeight": 1,
+                          "fontFamily": "Modak",
+                          "fontSize": 32,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "OYNdu",
+                          "name": "U",
+                          "fill": "#2A5F7C",
+                          "content": "diamantes",
+                          "fontFamily": "Nunito",
+                          "fontSize": 13,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Qn5Im",
+                  "name": "Precio",
+                  "layout": "vertical",
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ZVt45",
+                      "name": "P",
+                      "fill": "#123F57",
+                      "content": "$ 23.000",
+                      "fontFamily": "Nunito",
+                      "fontSize": 17,
+                      "fontWeight": "900"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "XiCAK",
+                  "name": "Agregar",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "#84B3CE33",
+                  "cornerRadius": 14,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "Wb3gv",
+                      "name": "I",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "plus",
+                      "library": "lucide",
+                      "fill": "#16587B"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "UErOa",
+              "name": "Paquete 6.160",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 22,
+              "stroke": "#84B3CE44",
+              "strokeWidth": 1,
+              "gap": 14,
+              "padding": [
+                12,
+                12,
+                12,
+                16
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "R7Nm3",
+                  "name": "Gemas",
+                  "width": 44,
+                  "height": 44,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "IQLMB",
+                      "x": 12,
+                      "y": 12,
+                      "name": "Gem",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "gem",
+                      "library": "lucide",
+                      "fill": "#16587B"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "VofBo",
+                      "x": 2,
+                      "y": 20,
+                      "name": "Gem",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "gem",
+                      "library": "lucide",
+                      "fill": "#16587B"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "GLF7d",
+                      "x": 24,
+                      "y": 22,
+                      "name": "Gem",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "gem",
+                      "library": "lucide",
+                      "fill": "#16587B"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "jT8Ve",
+                      "x": 8,
+                      "y": 2,
+                      "name": "Gem",
+                      "width": 14,
+                      "height": 14,
+                      "icon": "gem",
+                      "library": "lucide",
+                      "fill": "#16587B"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "dvtjZ",
+                      "x": 26,
+                      "y": 4,
+                      "name": "Gem",
+                      "width": 12,
+                      "height": 12,
+                      "icon": "gem",
+                      "library": "lucide",
+                      "fill": "#16587B"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "b8p7Bs",
+                  "name": "Texto",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "jqfOx",
+                      "name": "Qty",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "STjWZ",
+                          "name": "N",
+                          "fill": "#16587B",
+                          "content": "6.160",
+                          "lineHeight": 1,
+                          "fontFamily": "Modak",
+                          "fontSize": 32,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ykmKW",
+                          "name": "U",
+                          "fill": "#2A5F7C",
+                          "content": "diamantes",
+                          "fontFamily": "Nunito",
+                          "fontSize": 13,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "fPLI7",
+                  "name": "Precio",
+                  "layout": "vertical",
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Zc16Q",
+                      "name": "P",
+                      "fill": "#123F57",
+                      "content": "$ 57.000",
+                      "fontFamily": "Nunito",
+                      "fontSize": 17,
+                      "fontWeight": "900"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "i4kgC1",
+                  "name": "Agregar",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "#84B3CE33",
+                  "cornerRadius": 14,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "JaoR7",
+                      "name": "I",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "plus",
+                      "library": "lucide",
+                      "fill": "#16587B"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "pNEpF",
+              "name": "Nota",
+              "width": "fill_container",
+              "gap": 6,
+              "padding": [
+                6,
+                4,
+                0,
+                4
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "P1jIc",
+                  "name": "I",
+                  "width": 14,
+                  "height": 14,
+                  "icon": "zap",
+                  "library": "lucide",
+                  "fill": "#16587B"
+                },
+                {
+                  "type": "text",
+                  "id": "M1qxU",
+                  "name": "T",
+                  "fill": "#2A5F7C",
+                  "content": "Se acredita en 1–3 minutos después del pago.",
+                  "fontFamily": "Nunito",
+                  "fontSize": 13,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "BqWbP",
+          "name": "Barra carrito",
+          "width": "fill_container",
+          "padding": [
+            4,
+            12,
+            14,
+            12
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "PdPLH",
+              "name": "Barra carrito",
+              "width": "fill_container",
+              "height": 60,
+              "fill": "#16587B",
+              "cornerRadius": 999,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#16587B66",
+                "offset": {
+                  "x": 0,
+                  "y": 10
+                },
+                "blur": 24
+              },
+              "padding": [
+                0,
+                8,
+                0,
+                22
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "I012q",
+                  "name": "Resumen",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "dtQqC",
+                      "name": "Items",
+                      "fill": "#CFE2EC",
+                      "content": "2 paquetes",
+                      "fontFamily": "Nunito",
+                      "fontSize": 12,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "z2JjuZ",
+                      "name": "Total",
+                      "fill": "#F5EEDD",
+                      "content": "$ 7.000",
+                      "fontFamily": "Nunito",
+                      "fontSize": 18,
+                      "fontWeight": "900"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "w1xtu",
+                  "name": "Ir a pagar",
+                  "height": 44,
+                  "fill": "#F5EEDD",
+                  "cornerRadius": 999,
+                  "gap": 6,
+                  "padding": [
+                    0,
+                    18
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "hlaVP",
+                      "name": "Label",
+                      "fill": "#16587B",
+                      "content": "Ver carrito",
+                      "fontFamily": "Nunito",
+                      "fontSize": 15,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "T5oX8",
+                      "name": "Arrow",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "arrow-right",
+                      "library": "lucide",
+                      "fill": "#16587B"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "variables": {
