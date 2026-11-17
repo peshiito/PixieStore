@@ -13646,6 +13646,1149 @@
           ]
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "Gh892",
+      "x": 468,
+      "y": 80,
+      "name": "M1b · Inicio (tarjeta póster)",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "#F5EEDD",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "n9DkTj",
+          "x": -30,
+          "y": -6,
+          "name": "Patrón palabra",
+          "width": 460,
+          "effect": {
+            "type": "blur",
+            "radius": 2.5
+          },
+          "layout": "vertical",
+          "gap": 2,
+          "children": [
+            {
+              "type": "text",
+              "id": "TtiRn",
+              "name": "Fila",
+              "fill": "#84B3CE55",
+              "content": "shop pixie shop pixie shop pixie shop pixie ",
+              "lineHeight": 1.25,
+              "fontFamily": "Nunito",
+              "fontSize": 26,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "wbPOd",
+              "name": "Fila",
+              "fill": "#84B3CE55",
+              "content": "pixie shop pixie shop pixie shop pixie shop ",
+              "lineHeight": 1.25,
+              "fontFamily": "Nunito",
+              "fontSize": 26,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "BQZw6",
+              "name": "Fila",
+              "fill": "#84B3CE55",
+              "content": "shop pixie shop pixie shop pixie shop pixie ",
+              "lineHeight": 1.25,
+              "fontFamily": "Nunito",
+              "fontSize": 26,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "k4rhNb",
+              "name": "Fila",
+              "fill": "#84B3CE55",
+              "content": "pixie shop pixie shop pixie shop pixie shop ",
+              "lineHeight": 1.25,
+              "fontFamily": "Nunito",
+              "fontSize": 26,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "RpRg6",
+              "name": "Fila",
+              "fill": "#84B3CE55",
+              "content": "shop pixie shop pixie shop pixie shop pixie ",
+              "lineHeight": 1.25,
+              "fontFamily": "Nunito",
+              "fontSize": 26,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "u84Iyd",
+              "name": "Fila",
+              "fill": "#84B3CE55",
+              "content": "pixie shop pixie shop pixie shop pixie shop ",
+              "lineHeight": 1.25,
+              "fontFamily": "Nunito",
+              "fontSize": 26,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "Wh6Is",
+              "name": "Fila",
+              "fill": "#84B3CE55",
+              "content": "shop pixie shop pixie shop pixie shop pixie ",
+              "lineHeight": 1.25,
+              "fontFamily": "Nunito",
+              "fontSize": 26,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "d0EGb",
+              "name": "Fila",
+              "fill": "#84B3CE55",
+              "content": "pixie shop pixie shop pixie shop pixie shop ",
+              "lineHeight": 1.25,
+              "fontFamily": "Nunito",
+              "fontSize": 26,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "EgiGp",
+              "name": "Fila",
+              "fill": "#84B3CE55",
+              "content": "shop pixie shop pixie shop pixie shop pixie ",
+              "lineHeight": 1.25,
+              "fontFamily": "Nunito",
+              "fontSize": 26,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "n5Hbb",
+              "name": "Fila",
+              "fill": "#84B3CE55",
+              "content": "pixie shop pixie shop pixie shop pixie shop ",
+              "lineHeight": 1.25,
+              "fontFamily": "Nunito",
+              "fontSize": 26,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "m0Cyb",
+              "name": "Fila",
+              "fill": "#84B3CE55",
+              "content": "shop pixie shop pixie shop pixie shop pixie ",
+              "lineHeight": 1.25,
+              "fontFamily": "Nunito",
+              "fontSize": 26,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "PhFtc",
+              "name": "Fila",
+              "fill": "#84B3CE55",
+              "content": "pixie shop pixie shop pixie shop pixie shop ",
+              "lineHeight": 1.25,
+              "fontFamily": "Nunito",
+              "fontSize": 26,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "M7X7H",
+              "name": "Fila",
+              "fill": "#84B3CE55",
+              "content": "shop pixie shop pixie shop pixie shop pixie ",
+              "lineHeight": 1.25,
+              "fontFamily": "Nunito",
+              "fontSize": 26,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "EyAa7",
+              "name": "Fila",
+              "fill": "#84B3CE55",
+              "content": "pixie shop pixie shop pixie shop pixie shop ",
+              "lineHeight": 1.25,
+              "fontFamily": "Nunito",
+              "fontSize": 26,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "SMJVB",
+              "name": "Fila",
+              "fill": "#84B3CE55",
+              "content": "shop pixie shop pixie shop pixie shop pixie ",
+              "lineHeight": 1.25,
+              "fontFamily": "Nunito",
+              "fontSize": 26,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "f5ImO",
+              "name": "Fila",
+              "fill": "#84B3CE55",
+              "content": "pixie shop pixie shop pixie shop pixie shop ",
+              "lineHeight": 1.25,
+              "fontFamily": "Nunito",
+              "fontSize": 26,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "Hco8p",
+              "name": "Fila",
+              "fill": "#84B3CE55",
+              "content": "shop pixie shop pixie shop pixie shop pixie ",
+              "lineHeight": 1.25,
+              "fontFamily": "Nunito",
+              "fontSize": 26,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "atf51",
+              "name": "Fila",
+              "fill": "#84B3CE55",
+              "content": "pixie shop pixie shop pixie shop pixie shop ",
+              "lineHeight": 1.25,
+              "fontFamily": "Nunito",
+              "fontSize": 26,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "kMWvu",
+              "name": "Fila",
+              "fill": "#84B3CE55",
+              "content": "shop pixie shop pixie shop pixie shop pixie ",
+              "lineHeight": 1.25,
+              "fontFamily": "Nunito",
+              "fontSize": 26,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "mmDMD",
+              "name": "Fila",
+              "fill": "#84B3CE55",
+              "content": "pixie shop pixie shop pixie shop pixie shop ",
+              "lineHeight": 1.25,
+              "fontFamily": "Nunito",
+              "fontSize": 26,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "Twffy",
+              "name": "Fila",
+              "fill": "#84B3CE55",
+              "content": "shop pixie shop pixie shop pixie shop pixie ",
+              "lineHeight": 1.25,
+              "fontFamily": "Nunito",
+              "fontSize": 26,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "p6JDfQ",
+              "name": "Fila",
+              "fill": "#84B3CE55",
+              "content": "pixie shop pixie shop pixie shop pixie shop ",
+              "lineHeight": 1.25,
+              "fontFamily": "Nunito",
+              "fontSize": 26,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "gb7Ao",
+              "name": "Fila",
+              "fill": "#84B3CE55",
+              "content": "shop pixie shop pixie shop pixie shop pixie ",
+              "lineHeight": 1.25,
+              "fontFamily": "Nunito",
+              "fontSize": 26,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "YWySC",
+              "name": "Fila",
+              "fill": "#84B3CE55",
+              "content": "pixie shop pixie shop pixie shop pixie shop ",
+              "lineHeight": 1.25,
+              "fontFamily": "Nunito",
+              "fontSize": 26,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "UdBf7",
+              "name": "Fila",
+              "fill": "#84B3CE55",
+              "content": "shop pixie shop pixie shop pixie shop pixie ",
+              "lineHeight": 1.25,
+              "fontFamily": "Nunito",
+              "fontSize": 26,
+              "fontWeight": "900"
+            },
+            {
+              "type": "text",
+              "id": "pWkPS",
+              "name": "Fila",
+              "fill": "#84B3CE55",
+              "content": "pixie shop pixie shop pixie shop pixie shop ",
+              "lineHeight": 1.25,
+              "fontFamily": "Nunito",
+              "fontSize": 26,
+              "fontWeight": "900"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "ce4l4",
+          "x": 150,
+          "y": 806,
+          "name": "Palabra destacada",
+          "fill": "#16587B",
+          "content": "pixie",
+          "fontFamily": "Nunito",
+          "fontSize": 26,
+          "fontWeight": "900"
+        },
+        {
+          "type": "frame",
+          "id": "KFJ4f",
+          "x": 0,
+          "y": 0,
+          "name": "Header",
+          "width": 390,
+          "padding": [
+            14,
+            16
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "BSjPA",
+              "name": "Nav pill",
+              "fill": "#FFFFFF99",
+              "cornerRadius": 999,
+              "stroke": "#84B3CE66",
+              "strokeWidth": 1,
+              "gap": 2,
+              "padding": 4,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "cJUEz",
+                  "name": "Nav Inicio",
+                  "fill": "#16587B",
+                  "cornerRadius": 999,
+                  "padding": [
+                    9,
+                    14
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "dPwir",
+                      "name": "Label",
+                      "fill": "#F5EEDD",
+                      "content": "Inicio",
+                      "fontFamily": "Nunito",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "LndrT",
+                  "name": "Nav Productos",
+                  "fill": "#00000000",
+                  "cornerRadius": 999,
+                  "padding": [
+                    9,
+                    14
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "D0FyT",
+                      "name": "Label",
+                      "fill": "#16587B",
+                      "content": "Productos",
+                      "fontFamily": "Nunito",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "W2XQbz",
+                  "name": "Nav Pedidos",
+                  "fill": "#00000000",
+                  "cornerRadius": 999,
+                  "padding": [
+                    9,
+                    14
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "QkduE",
+                      "name": "Label",
+                      "fill": "#16587B",
+                      "content": "Pedidos",
+                      "fontFamily": "Nunito",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "R2isk",
+              "name": "Cart button",
+              "width": 44,
+              "height": 44,
+              "fill": "#FFFFFF99",
+              "cornerRadius": 999,
+              "stroke": "#84B3CE66",
+              "strokeWidth": 1,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "vXqRK",
+                  "name": "Cart icon",
+                  "width": 20,
+                  "height": 20,
+                  "icon": "shopping-bag",
+                  "library": "lucide",
+                  "fill": "#16587B"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "o092xm",
+          "x": 22,
+          "y": 84,
+          "name": "Tarjeta",
+          "width": 346,
+          "height": 560,
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "cornerRadius": 38,
+              "id": "xtoeh",
+              "x": 30,
+              "y": 24,
+              "name": "Base",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 180,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#16587B",
+                    "position": 0
+                  },
+                  {
+                    "color": "#0F4462",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 290,
+              "height": 520,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#0F446255",
+                "offset": {
+                  "x": 0,
+                  "y": 24
+                },
+                "blur": 40
+              }
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 38,
+              "id": "GERne",
+              "x": 186,
+              "y": 0,
+              "name": "Panel oreja",
+              "fill": "#84B3CE",
+              "width": 160,
+              "height": 130,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#0F446240",
+                "offset": {
+                  "x": 0,
+                  "y": 10
+                },
+                "blur": 24
+              }
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 38,
+              "id": "Qf5Fn",
+              "x": 0,
+              "y": 96,
+              "name": "Panel",
+              "fill": "#84B3CE",
+              "width": 346,
+              "height": 262,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#0F446240",
+                "offset": {
+                  "x": 0,
+                  "y": 10
+                },
+                "blur": 24
+              }
+            },
+            {
+              "type": "rectangle",
+              "id": "r3B2Aw",
+              "x": 186,
+              "y": 80,
+              "name": "Panel unión",
+              "fill": "#84B3CE",
+              "width": 160,
+              "height": 40
+            },
+            {
+              "type": "frame",
+              "id": "dYT5H",
+              "x": 56,
+              "y": 46,
+              "name": "Etiqueta",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "q6V6b7",
+                  "name": "G",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "gem",
+                  "library": "lucide",
+                  "fill": "#84B3CE"
+                },
+                {
+                  "type": "text",
+                  "id": "o8sagS",
+                  "name": "L",
+                  "fill": "#F5EEDD",
+                  "content": "Free Fire",
+                  "fontFamily": "Nunito",
+                  "fontSize": 20,
+                  "fontWeight": "900"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "WJvyn",
+              "x": 206,
+              "y": 26,
+              "name": "Oreja acciones",
+              "width": 120,
+              "gap": 10,
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "path",
+                  "id": "EBvke",
+                  "name": "Destello",
+                  "geometry": "M12 0c1 7 5 11 12 12-7 1-11 5-12 12-1-7-5-11-12-12 7-1 11-5 12-12z",
+                  "viewBox": [
+                    0,
+                    0,
+                    24,
+                    24
+                  ],
+                  "fill": "#16587B",
+                  "width": 30,
+                  "height": 30
+                },
+                {
+                  "type": "frame",
+                  "id": "R287wj",
+                  "name": "Play",
+                  "width": 52,
+                  "height": 52,
+                  "fill": "#16587B",
+                  "cornerRadius": 999,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0F446255",
+                    "offset": {
+                      "x": 0,
+                      "y": 6
+                    },
+                    "blur": 12
+                  },
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "VDzJq",
+                      "name": "I",
+                      "width": 24,
+                      "height": 24,
+                      "icon": "arrow-up-right",
+                      "library": "lucide",
+                      "fill": "#F5EEDD"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "NCObT",
+              "x": 26,
+              "y": 128,
+              "name": "Marca shop",
+              "gap": 6,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "zJ00X",
+                  "name": "I",
+                  "width": 16,
+                  "height": 16,
+                  "icon": "shopping-bag",
+                  "library": "lucide",
+                  "fill": "#F5EEDD"
+                },
+                {
+                  "type": "text",
+                  "id": "nzwM4",
+                  "name": "L",
+                  "fill": "#F5EEDD",
+                  "content": "shop",
+                  "fontFamily": "Nunito",
+                  "fontSize": 17,
+                  "fontWeight": "900"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "xduDI",
+              "x": 20,
+              "y": 156,
+              "name": "PIXIE",
+              "fill": "#16587B",
+              "content": "PIXIE",
+              "lineHeight": 1,
+              "fontFamily": "Modak",
+              "fontSize": 96,
+              "fontWeight": "normal",
+              "letterSpacing": -2
+            },
+            {
+              "type": "frame",
+              "id": "x5Eclm",
+              "x": 22,
+              "y": 296,
+              "name": "Chips",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "GkkYo",
+                  "name": "Chip 110",
+                  "fill": "#F5EEDD",
+                  "cornerRadius": 999,
+                  "stroke": "#16587B33",
+                  "strokeWidth": 1,
+                  "padding": [
+                    7,
+                    14
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "JGk3n",
+                      "name": "L",
+                      "fill": "#16587B",
+                      "content": "110",
+                      "fontFamily": "Nunito",
+                      "fontSize": 13,
+                      "fontWeight": "900"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "G8BWU4",
+                  "name": "Chip 572",
+                  "fill": "#16587B",
+                  "cornerRadius": 999,
+                  "stroke": "#16587B",
+                  "strokeWidth": 1,
+                  "padding": [
+                    7,
+                    14
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "aD58M",
+                      "name": "L",
+                      "fill": "#F5EEDD",
+                      "content": "572",
+                      "fontFamily": "Nunito",
+                      "fontSize": 13,
+                      "fontWeight": "900"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Ru6sU",
+              "x": 124,
+              "y": 176,
+              "name": "Personaje",
+              "width": 230,
+              "height": 368,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "assets/hero/personaje.png",
+                "mode": "contain"
+              }
+            },
+            {
+              "type": "frame",
+              "id": "GRZXZ",
+              "x": 56,
+              "y": 452,
+              "name": "Insignias",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "G2tCU",
+                  "name": "Puntos",
+                  "width": 44,
+                  "height": 30,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "oN52y",
+                      "x": 0,
+                      "y": 0,
+                      "name": "p",
+                      "fill": "#84B3CE99",
+                      "width": 4,
+                      "height": 4
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "JngUF",
+                      "x": 8,
+                      "y": 0,
+                      "name": "p",
+                      "fill": "#84B3CE99",
+                      "width": 4,
+                      "height": 4
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "qUBrJ",
+                      "x": 16,
+                      "y": 0,
+                      "name": "p",
+                      "fill": "#84B3CE99",
+                      "width": 4,
+                      "height": 4
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "Vz5Qp",
+                      "x": 24,
+                      "y": 0,
+                      "name": "p",
+                      "fill": "#84B3CE99",
+                      "width": 4,
+                      "height": 4
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "WeJEj",
+                      "x": 32,
+                      "y": 0,
+                      "name": "p",
+                      "fill": "#84B3CE99",
+                      "width": 4,
+                      "height": 4
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "KmLVu",
+                      "x": 40,
+                      "y": 0,
+                      "name": "p",
+                      "fill": "#84B3CE99",
+                      "width": 4,
+                      "height": 4
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "X9isi",
+                      "x": 0,
+                      "y": 8,
+                      "name": "p",
+                      "fill": "#84B3CE99",
+                      "width": 4,
+                      "height": 4
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "AnAW8",
+                      "x": 8,
+                      "y": 8,
+                      "name": "p",
+                      "fill": "#84B3CE99",
+                      "width": 4,
+                      "height": 4
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "TvEqz",
+                      "x": 16,
+                      "y": 8,
+                      "name": "p",
+                      "fill": "#84B3CE99",
+                      "width": 4,
+                      "height": 4
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "Tg1iv",
+                      "x": 24,
+                      "y": 8,
+                      "name": "p",
+                      "fill": "#84B3CE99",
+                      "width": 4,
+                      "height": 4
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "KjuD7",
+                      "x": 32,
+                      "y": 8,
+                      "name": "p",
+                      "fill": "#84B3CE99",
+                      "width": 4,
+                      "height": 4
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "ssV8l",
+                      "x": 40,
+                      "y": 8,
+                      "name": "p",
+                      "fill": "#84B3CE99",
+                      "width": 4,
+                      "height": 4
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "hx27O",
+                      "x": 0,
+                      "y": 16,
+                      "name": "p",
+                      "fill": "#84B3CE99",
+                      "width": 4,
+                      "height": 4
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "R6FYZy",
+                      "x": 8,
+                      "y": 16,
+                      "name": "p",
+                      "fill": "#84B3CE99",
+                      "width": 4,
+                      "height": 4
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "SyqDr",
+                      "x": 16,
+                      "y": 16,
+                      "name": "p",
+                      "fill": "#84B3CE99",
+                      "width": 4,
+                      "height": 4
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "wVyir",
+                      "x": 24,
+                      "y": 16,
+                      "name": "p",
+                      "fill": "#84B3CE99",
+                      "width": 4,
+                      "height": 4
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "G4RGaw",
+                      "x": 32,
+                      "y": 16,
+                      "name": "p",
+                      "fill": "#84B3CE99",
+                      "width": 4,
+                      "height": 4
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "O1RXOF",
+                      "x": 40,
+                      "y": 16,
+                      "name": "p",
+                      "fill": "#84B3CE99",
+                      "width": 4,
+                      "height": 4
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "fLsIb",
+                      "x": 0,
+                      "y": 24,
+                      "name": "p",
+                      "fill": "#84B3CE99",
+                      "width": 4,
+                      "height": 4
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "nz4yj",
+                      "x": 8,
+                      "y": 24,
+                      "name": "p",
+                      "fill": "#84B3CE99",
+                      "width": 4,
+                      "height": 4
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "s7TG4O",
+                      "x": 16,
+                      "y": 24,
+                      "name": "p",
+                      "fill": "#84B3CE99",
+                      "width": 4,
+                      "height": 4
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "iX8So",
+                      "x": 24,
+                      "y": 24,
+                      "name": "p",
+                      "fill": "#84B3CE99",
+                      "width": 4,
+                      "height": 4
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "Ij1Qd",
+                      "x": 32,
+                      "y": 24,
+                      "name": "p",
+                      "fill": "#84B3CE99",
+                      "width": 4,
+                      "height": 4
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "aH7Zk",
+                      "x": 40,
+                      "y": 24,
+                      "name": "p",
+                      "fill": "#84B3CE99",
+                      "width": 4,
+                      "height": 4
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "fYSBs",
+                  "name": "Zap",
+                  "width": 44,
+                  "height": 44,
+                  "cornerRadius": 999,
+                  "stroke": "#84B3CE",
+                  "strokeWidth": 2,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "gZ5B1",
+                      "name": "I",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "zap",
+                      "library": "lucide",
+                      "fill": "#84B3CE"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Ed4jL",
+          "x": 20,
+          "y": 666,
+          "name": "Pie",
+          "width": 350,
+          "layout": "vertical",
+          "gap": 12,
+          "children": [
+            {
+              "type": "text",
+              "id": "X7obxH",
+              "name": "Lead",
+              "fill": "#16587B",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Los precios que buscás, con la mejor tienda.",
+              "fontFamily": "Nunito",
+              "fontSize": 17,
+              "fontWeight": "900"
+            },
+            {
+              "type": "frame",
+              "id": "ycKi7",
+              "name": "Acciones",
+              "width": "fill_container",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "F0Etw",
+                  "name": "Btn primary",
+                  "width": "fill_container",
+                  "height": 54,
+                  "fill": "#16587B",
+                  "cornerRadius": 18,
+                  "gap": 10,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "FVJsg",
+                      "name": "L",
+                      "fill": "#F5EEDD",
+                      "content": "Comprar diamantes",
+                      "fontFamily": "Nunito",
+                      "fontSize": 17,
+                      "fontWeight": "900"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "u08CLv",
+                      "name": "I",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "arrow-right",
+                      "library": "lucide",
+                      "fill": "#F5EEDD"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "BbzNB",
+                  "name": "Btn pedido",
+                  "width": 54,
+                  "height": 54,
+                  "fill": "#F5EEDD",
+                  "cornerRadius": 18,
+                  "stroke": "#16587B",
+                  "strokeWidth": 2,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "i9o97C",
+                      "name": "I",
+                      "width": 22,
+                      "height": 22,
+                      "icon": "package-search",
+                      "library": "lucide",
+                      "fill": "#16587B"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "variables": {
