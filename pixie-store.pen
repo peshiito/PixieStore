@@ -2793,7 +2793,7 @@
                           "type": "text",
                           "id": "Gt6Hw",
                           "name": "Value",
-                          "fill": "#5E88A0",
+                          "fill": "#46728C",
                           "content": "Ej: 1234567890",
                           "fontFamily": "Nunito",
                           "fontSize": 16,
@@ -3310,7 +3310,7 @@
               "type": "text",
               "id": "G4sU8",
               "name": "Sub",
-              "fill": "#2A5F7C",
+              "fill": "#123F57",
               "effect": {
                 "type": "shadow",
                 "shadowType": "outer",
@@ -3404,7 +3404,7 @@
               "type": "text",
               "id": "p7G1H5",
               "name": "Hint",
-              "fill": "#2A5F7C",
+              "fill": "#123F57",
               "effect": {
                 "type": "shadow",
                 "shadowType": "outer",
@@ -3684,7 +3684,7 @@
                       "type": "text",
                       "id": "Ug3wB",
                       "name": "Code",
-                      "fill": "#2A5F7C",
+                      "fill": "#123F57",
                       "effect": {
                         "type": "shadow",
                         "shadowType": "outer",
@@ -4027,7 +4027,7 @@
                           "type": "text",
                           "id": "ox0wp",
                           "name": "Title",
-                          "fill": "#5E88A0",
+                          "fill": "#46728C",
                           "content": "Pedido entregado",
                           "fontFamily": "Nunito",
                           "fontSize": 16,
@@ -4442,7 +4442,7 @@
               "type": "text",
               "id": "cPWbp",
               "name": "Sub",
-              "fill": "#2A5F7C",
+              "fill": "#123F57",
               "effect": {
                 "type": "shadow",
                 "shadowType": "outer",
@@ -4599,7 +4599,7 @@
               "type": "text",
               "id": "dTj9o",
               "name": "Result label",
-              "fill": "#2A5F7C",
+              "fill": "#123F57",
               "effect": {
                 "type": "shadow",
                 "shadowType": "outer",
@@ -5168,64 +5168,18 @@
               "name": "Ilustración personaje",
               "clip": true,
               "width": "fill_container",
-              "height": 360,
+              "height": 350,
               "fill": {
-                "type": "shader",
+                "type": "image",
                 "enabled": true,
-                "url": "assets/shaders/pixie-ocean.glsl",
-                "uniforms": {
-                  "u_light": "#C2D9E7",
-                  "u_shadow": "#84B3CE",
-                  "u_line": "#FFFFFF",
-                  "u_deep": "#16587B",
-                  "u_abyss": "#0B3A55",
-                  "u_depthTop": 0.6,
-                  "u_depthBottom": 0.95,
-                  "u_cell": 110,
-                  "u_caustics": 1,
-                  "u_speed": 1
-                }
+                "url": "assets/logo-shop-pixie.png",
+                "mode": "cover"
               },
               "cornerRadius": 32,
+              "stroke": "#FFFFFF",
+              "strokeWidth": 6,
               "layout": "none",
               "children": [
-                {
-                  "type": "frame",
-                  "id": "sI4FC",
-                  "x": 70,
-                  "y": 20,
-                  "name": "Personaje",
-                  "width": 250,
-                  "height": 400,
-                  "fill": {
-                    "type": "image",
-                    "enabled": true,
-                    "url": "assets/hero/personaje.png",
-                    "mode": "contain"
-                  },
-                  "effect": {
-                    "type": "shader",
-                    "url": "assets/shaders/float.glsl",
-                    "uniforms": {
-                      "u_content": "pencil:object",
-                      "u_amp": 6,
-                      "u_speed": 1,
-                      "u_phase": 0.7
-                    }
-                  }
-                },
-                {
-                  "type": "text",
-                  "id": "p2EB4a",
-                  "x": 18,
-                  "y": 290,
-                  "name": "Gracias marca",
-                  "fill": "#F5EEDD33",
-                  "content": "PIXIE",
-                  "fontFamily": "Modak",
-                  "fontSize": 64,
-                  "fontWeight": "normal"
-                },
                 {
                   "type": "frame",
                   "id": "FllnJ",
@@ -5294,7 +5248,7 @@
                   "type": "text",
                   "id": "WWgwp",
                   "name": "Text",
-                  "fill": "#2A5F7C",
+                  "fill": "#123F57",
                   "effect": {
                     "type": "shadow",
                     "shadowType": "outer",
@@ -5756,7 +5710,7 @@
               "type": "text",
               "id": "gKTI1",
               "name": "Meta",
-              "fill": "#2A5F7C",
+              "fill": "#123F57",
               "effect": {
                 "type": "shadow",
                 "shadowType": "outer",
@@ -6019,7 +5973,7 @@
               "type": "text",
               "id": "ll9K2",
               "name": "Nota",
-              "fill": "#2A5F7C",
+              "fill": "#123F57",
               "effect": {
                 "type": "shadow",
                 "shadowType": "outer",
@@ -8637,7 +8591,7 @@
       "children": [
         {
           "type": "frame",
-          "id": "ZCLpk",
+          "id": "oDSHr",
           "x": 0,
           "y": 0,
           "name": "Fondo tienda",
@@ -8664,7 +8618,7 @@
           "children": [
             {
               "type": "frame",
-              "id": "w5Lhng",
+              "id": "m8r0I9",
               "name": "Hero",
               "width": 1440,
               "height": 900,
@@ -8673,7 +8627,7 @@
               "children": [
                 {
                   "type": "frame",
-                  "id": "DbbkZ",
+                  "id": "u8gyId",
                   "x": 0,
                   "y": 0,
                   "name": "Navbar (única)",
@@ -8687,7 +8641,7 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "q1d86",
+                      "id": "ndGIm",
                       "name": "Logo slot (vacío en hero)",
                       "width": 48,
                       "height": 48,
@@ -8697,14 +8651,14 @@
                     },
                     {
                       "type": "frame",
-                      "id": "mOF1U",
+                      "id": "eyJ4e",
                       "name": "Right",
                       "gap": 12,
                       "alignItems": "center",
                       "children": [
                         {
                           "type": "frame",
-                          "id": "lnAmK",
+                          "id": "spFAF",
                           "name": "Nav pill",
                           "fill": "#FFFFFF99",
                           "cornerRadius": 999,
@@ -8715,7 +8669,7 @@
                           "children": [
                             {
                               "type": "frame",
-                              "id": "YXmRJ",
+                              "id": "TpFo9",
                               "name": "Nav Inicio",
                               "fill": "#16587B",
                               "cornerRadius": 999,
@@ -8726,7 +8680,7 @@
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "gAZ0k",
+                                  "id": "Trka3",
                                   "name": "Label",
                                   "fill": "#F5EEDD",
                                   "content": "Inicio",
@@ -8738,7 +8692,7 @@
                             },
                             {
                               "type": "frame",
-                              "id": "fFK46",
+                              "id": "p3TPB",
                               "name": "Nav Productos",
                               "fill": "#00000000",
                               "cornerRadius": 999,
@@ -8749,7 +8703,7 @@
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "esB7N",
+                                  "id": "j6Uxr",
                                   "name": "Label",
                                   "fill": "#16587B",
                                   "content": "Productos",
@@ -8761,7 +8715,7 @@
                             },
                             {
                               "type": "frame",
-                              "id": "XaIXT",
+                              "id": "JjZrz",
                               "name": "Nav Pedidos",
                               "fill": "#00000000",
                               "cornerRadius": 999,
@@ -8772,7 +8726,7 @@
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "Y2FXr",
+                                  "id": "aZfgU",
                                   "name": "Label",
                                   "fill": "#16587B",
                                   "content": "Pedidos",
@@ -8786,7 +8740,7 @@
                         },
                         {
                           "type": "frame",
-                          "id": "Qtx4D",
+                          "id": "rMpSO",
                           "name": "Cart",
                           "height": 48,
                           "fill": "#16587B",
@@ -8800,7 +8754,7 @@
                           "children": [
                             {
                               "type": "icon",
-                              "id": "SRYrA",
+                              "id": "GxNA2",
                               "name": "I",
                               "width": 19,
                               "height": 19,
@@ -8810,7 +8764,7 @@
                             },
                             {
                               "type": "text",
-                              "id": "oUgPu",
+                              "id": "Cm36e",
                               "name": "L",
                               "fill": "#F5EEDD",
                               "content": "Carrito · 2",
@@ -8826,7 +8780,7 @@
                 },
                 {
                   "type": "frame",
-                  "id": "GKhqm",
+                  "id": "TzNi4",
                   "x": 120,
                   "y": 190,
                   "name": "Copy",
@@ -8836,9 +8790,15 @@
                   "children": [
                     {
                       "type": "text",
-                      "id": "qAN8I",
+                      "id": "YVKmk",
                       "name": "Title",
                       "fill": "#16587B",
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#F5EEDDE6",
+                        "blur": 10
+                      },
                       "content": "Los precios que\nbuscás, con la\nmejor tienda",
                       "lineHeight": 0.94,
                       "fontFamily": "Modak",
@@ -8847,9 +8807,15 @@
                     },
                     {
                       "type": "text",
-                      "id": "Q7maCQ",
+                      "id": "HrSz3",
                       "name": "Sub",
-                      "fill": "#2A5F7C",
+                      "fill": "#123F57",
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#F5EEDDE6",
+                        "blur": 10
+                      },
                       "textGrowth": "fixed-width",
                       "width": 480,
                       "content": "Pegá tu ID de jugador, pagá y la recarga entra sola a tu cuenta. Sin crear usuario.",
@@ -8860,13 +8826,13 @@
                     },
                     {
                       "type": "frame",
-                      "id": "VLvjL",
+                      "id": "YqIaI",
                       "name": "CTAs",
                       "gap": 12,
                       "children": [
                         {
                           "type": "frame",
-                          "id": "J2BsT",
+                          "id": "udFl0",
                           "name": "Btn primary",
                           "height": 60,
                           "fill": "#16587B",
@@ -8889,7 +8855,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "id": "F4BoV",
+                              "id": "AEE2Z",
                               "name": "L",
                               "fill": "#F5EEDD",
                               "content": "Comprar diamantes",
@@ -8899,7 +8865,7 @@
                             },
                             {
                               "type": "icon",
-                              "id": "a1v3g",
+                              "id": "nZNRt",
                               "name": "I",
                               "width": 20,
                               "height": 20,
@@ -8911,7 +8877,7 @@
                         },
                         {
                           "type": "frame",
-                          "id": "uphcw",
+                          "id": "HO7ZH",
                           "name": "Btn secondary",
                           "height": 60,
                           "fill": "#F5EEDD",
@@ -8927,7 +8893,7 @@
                           "children": [
                             {
                               "type": "icon",
-                              "id": "KwGzN",
+                              "id": "XpQKx",
                               "name": "I",
                               "width": 20,
                               "height": 20,
@@ -8937,7 +8903,7 @@
                             },
                             {
                               "type": "text",
-                              "id": "zC7Yn",
+                              "id": "dyUua",
                               "name": "L",
                               "fill": "#16587B",
                               "content": "Seguir mi pedido",
@@ -8951,16 +8917,22 @@
                     },
                     {
                       "type": "frame",
-                      "id": "Hfez2",
+                      "id": "wXqmK",
                       "name": "Rápidos",
                       "gap": 10,
                       "alignItems": "center",
                       "children": [
                         {
                           "type": "text",
-                          "id": "d1VSb",
+                          "id": "mOOzw",
                           "name": "T",
-                          "fill": "#2A5F7C",
+                          "fill": "#123F57",
+                          "effect": {
+                            "type": "shadow",
+                            "shadowType": "outer",
+                            "color": "#F5EEDDE6",
+                            "blur": 10
+                          },
                           "content": "Elegí y listo:",
                           "fontFamily": "Nunito",
                           "fontSize": 15,
@@ -8968,7 +8940,7 @@
                         },
                         {
                           "type": "frame",
-                          "id": "u7kp7",
+                          "id": "OB6zD",
                           "name": "Chip 110",
                           "fill": "#FFFFFF",
                           "cornerRadius": 999,
@@ -8983,7 +8955,7 @@
                           "children": [
                             {
                               "type": "icon",
-                              "id": "nm8oP",
+                              "id": "ClS15",
                               "name": "G",
                               "width": 14,
                               "height": 14,
@@ -8993,7 +8965,7 @@
                             },
                             {
                               "type": "text",
-                              "id": "Qs7Lp",
+                              "id": "B5q53",
                               "name": "N",
                               "fill": "#16587B",
                               "content": "110",
@@ -9006,7 +8978,7 @@
                         },
                         {
                           "type": "frame",
-                          "id": "ZJQjy",
+                          "id": "sKtNr",
                           "name": "Chip 341",
                           "fill": "#FFFFFF",
                           "cornerRadius": 999,
@@ -9021,7 +8993,7 @@
                           "children": [
                             {
                               "type": "icon",
-                              "id": "JtZRu",
+                              "id": "sAJWy",
                               "name": "G",
                               "width": 14,
                               "height": 14,
@@ -9031,7 +9003,7 @@
                             },
                             {
                               "type": "text",
-                              "id": "sKvpa",
+                              "id": "ow79J",
                               "name": "N",
                               "fill": "#16587B",
                               "content": "341",
@@ -9044,7 +9016,7 @@
                         },
                         {
                           "type": "frame",
-                          "id": "u4eVZ",
+                          "id": "i4By1",
                           "name": "Chip 572",
                           "fill": "#16587B",
                           "cornerRadius": 999,
@@ -9059,7 +9031,7 @@
                           "children": [
                             {
                               "type": "icon",
-                              "id": "oI5bz",
+                              "id": "RtXNC",
                               "name": "G",
                               "width": 14,
                               "height": 14,
@@ -9069,7 +9041,7 @@
                             },
                             {
                               "type": "text",
-                              "id": "qCnoK",
+                              "id": "C9Fbtv",
                               "name": "N",
                               "fill": "#F5EEDD",
                               "content": "572",
@@ -9082,7 +9054,7 @@
                         },
                         {
                           "type": "frame",
-                          "id": "hadIF",
+                          "id": "SaMWx",
                           "name": "Chip 1.166",
                           "fill": "#FFFFFF",
                           "cornerRadius": 999,
@@ -9097,7 +9069,7 @@
                           "children": [
                             {
                               "type": "icon",
-                              "id": "pLtXb",
+                              "id": "iEA3N",
                               "name": "G",
                               "width": 14,
                               "height": 14,
@@ -9107,7 +9079,7 @@
                             },
                             {
                               "type": "text",
-                              "id": "z3OUVj",
+                              "id": "kCTmV",
                               "name": "N",
                               "fill": "#16587B",
                               "content": "1.166",
@@ -9124,7 +9096,7 @@
                 },
                 {
                   "type": "frame",
-                  "id": "yJhcI",
+                  "id": "eOjLO",
                   "x": 880,
                   "y": 150,
                   "name": "Tarjeta póster",
@@ -9135,7 +9107,7 @@
                     {
                       "type": "rectangle",
                       "cornerRadius": 38,
-                      "id": "nWEMM",
+                      "id": "tPW8f",
                       "x": 30,
                       "y": 24,
                       "name": "Base",
@@ -9172,7 +9144,7 @@
                     {
                       "type": "rectangle",
                       "cornerRadius": 38,
-                      "id": "GO10M",
+                      "id": "hDG5q",
                       "x": 186,
                       "y": 0,
                       "name": "Panel oreja",
@@ -9193,7 +9165,7 @@
                     {
                       "type": "rectangle",
                       "cornerRadius": 38,
-                      "id": "rQoOx",
+                      "id": "j2N6A6",
                       "x": 0,
                       "y": 96,
                       "name": "Panel",
@@ -9213,7 +9185,7 @@
                     },
                     {
                       "type": "rectangle",
-                      "id": "q57crw",
+                      "id": "X2ml7Q",
                       "x": 186,
                       "y": 80,
                       "name": "Panel unión",
@@ -9223,7 +9195,7 @@
                     },
                     {
                       "type": "frame",
-                      "id": "UaXIP",
+                      "id": "h7KsD",
                       "x": 56,
                       "y": 46,
                       "name": "Etiqueta",
@@ -9232,7 +9204,7 @@
                       "children": [
                         {
                           "type": "icon",
-                          "id": "s63htx",
+                          "id": "ZFdQr",
                           "name": "G",
                           "width": 18,
                           "height": 18,
@@ -9242,7 +9214,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "Pw93V",
+                          "id": "j3eRn",
                           "name": "L",
                           "fill": "#F5EEDD",
                           "content": "Free Fire",
@@ -9254,7 +9226,7 @@
                     },
                     {
                       "type": "frame",
-                      "id": "O7AMPP",
+                      "id": "maKCW",
                       "x": 206,
                       "y": 26,
                       "name": "Oreja acciones",
@@ -9265,7 +9237,7 @@
                       "children": [
                         {
                           "type": "path",
-                          "id": "cRiY7",
+                          "id": "hIGhq",
                           "name": "Destello",
                           "geometry": "M12 0c1 7 5 11 12 12-7 1-11 5-12 12-1-7-5-11-12-12 7-1 11-5 12-12z",
                           "viewBox": [
@@ -9280,7 +9252,7 @@
                         },
                         {
                           "type": "frame",
-                          "id": "IOtmW",
+                          "id": "R1KrDt",
                           "name": "Play",
                           "width": 52,
                           "height": 52,
@@ -9313,7 +9285,7 @@
                           "children": [
                             {
                               "type": "icon",
-                              "id": "aQI2G",
+                              "id": "AsMbJ",
                               "name": "I",
                               "width": 24,
                               "height": 24,
@@ -9327,7 +9299,7 @@
                     },
                     {
                       "type": "frame",
-                      "id": "W6fZk",
+                      "id": "HYP5k",
                       "x": 26,
                       "y": 128,
                       "name": "Marca shop",
@@ -9336,7 +9308,7 @@
                       "children": [
                         {
                           "type": "icon",
-                          "id": "f5un4",
+                          "id": "HMc9w",
                           "name": "I",
                           "width": 16,
                           "height": 16,
@@ -9346,7 +9318,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "J3TCA",
+                          "id": "nVMnL",
                           "name": "L",
                           "fill": "#F5EEDD",
                           "content": "shop",
@@ -9358,11 +9330,17 @@
                     },
                     {
                       "type": "text",
-                      "id": "BSmgL",
+                      "id": "MSKSo",
                       "x": 20,
                       "y": 156,
                       "name": "PIXIE",
                       "fill": "#16587B",
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#F5EEDDE6",
+                        "blur": 10
+                      },
                       "content": "PIXIE",
                       "lineHeight": 1,
                       "fontFamily": "Modak",
@@ -9372,7 +9350,7 @@
                     },
                     {
                       "type": "frame",
-                      "id": "l8Kz7v",
+                      "id": "ReJtV",
                       "x": 22,
                       "y": 296,
                       "name": "Chips",
@@ -9380,7 +9358,7 @@
                       "children": [
                         {
                           "type": "frame",
-                          "id": "ksdq1",
+                          "id": "vp64h",
                           "name": "Chip 110",
                           "fill": "#F5EEDD",
                           "cornerRadius": 999,
@@ -9393,7 +9371,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "id": "bOnuZ",
+                              "id": "OQi18",
                               "name": "L",
                               "fill": "#16587B",
                               "content": "110",
@@ -9405,7 +9383,7 @@
                         },
                         {
                           "type": "frame",
-                          "id": "x3iPA",
+                          "id": "z4Qb2",
                           "name": "Chip 572",
                           "fill": "#16587B",
                           "cornerRadius": 999,
@@ -9418,7 +9396,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "id": "n1rk3",
+                              "id": "CD5GO",
                               "name": "L",
                               "fill": "#F5EEDD",
                               "content": "572",
@@ -9432,7 +9410,7 @@
                     },
                     {
                       "type": "frame",
-                      "id": "elM2b",
+                      "id": "NKPKh",
                       "x": 124,
                       "y": 176,
                       "name": "Personaje",
@@ -9457,7 +9435,7 @@
                     },
                     {
                       "type": "frame",
-                      "id": "ADuvG",
+                      "id": "MG8ny",
                       "x": 56,
                       "y": 452,
                       "name": "Insignias",
@@ -9466,7 +9444,7 @@
                       "children": [
                         {
                           "type": "frame",
-                          "id": "qhxCS",
+                          "id": "M9lAEa",
                           "name": "Puntos",
                           "width": 44,
                           "height": 30,
@@ -9474,7 +9452,7 @@
                           "children": [
                             {
                               "type": "ellipse",
-                              "id": "I66mSt",
+                              "id": "QRJlz",
                               "x": 0,
                               "y": 0,
                               "name": "p",
@@ -9484,7 +9462,7 @@
                             },
                             {
                               "type": "ellipse",
-                              "id": "uTJId",
+                              "id": "H0fhe",
                               "x": 8,
                               "y": 0,
                               "name": "p",
@@ -9494,7 +9472,7 @@
                             },
                             {
                               "type": "ellipse",
-                              "id": "GGG7V",
+                              "id": "edbYy",
                               "x": 16,
                               "y": 0,
                               "name": "p",
@@ -9504,7 +9482,7 @@
                             },
                             {
                               "type": "ellipse",
-                              "id": "prpni",
+                              "id": "l8rvj",
                               "x": 24,
                               "y": 0,
                               "name": "p",
@@ -9514,7 +9492,7 @@
                             },
                             {
                               "type": "ellipse",
-                              "id": "ZHjCe",
+                              "id": "QDkBA",
                               "x": 32,
                               "y": 0,
                               "name": "p",
@@ -9524,7 +9502,7 @@
                             },
                             {
                               "type": "ellipse",
-                              "id": "dxT1K",
+                              "id": "FM9cG",
                               "x": 40,
                               "y": 0,
                               "name": "p",
@@ -9534,7 +9512,7 @@
                             },
                             {
                               "type": "ellipse",
-                              "id": "lvXVZ",
+                              "id": "FGV1M",
                               "x": 0,
                               "y": 8,
                               "name": "p",
@@ -9544,7 +9522,7 @@
                             },
                             {
                               "type": "ellipse",
-                              "id": "tahig",
+                              "id": "i5GFDc",
                               "x": 8,
                               "y": 8,
                               "name": "p",
@@ -9554,7 +9532,7 @@
                             },
                             {
                               "type": "ellipse",
-                              "id": "IVcSE",
+                              "id": "COcxi",
                               "x": 16,
                               "y": 8,
                               "name": "p",
@@ -9564,7 +9542,7 @@
                             },
                             {
                               "type": "ellipse",
-                              "id": "W41VU",
+                              "id": "n2ETqQ",
                               "x": 24,
                               "y": 8,
                               "name": "p",
@@ -9574,7 +9552,7 @@
                             },
                             {
                               "type": "ellipse",
-                              "id": "UnIFi",
+                              "id": "T80CE1",
                               "x": 32,
                               "y": 8,
                               "name": "p",
@@ -9584,7 +9562,7 @@
                             },
                             {
                               "type": "ellipse",
-                              "id": "rVngL",
+                              "id": "OjJko",
                               "x": 40,
                               "y": 8,
                               "name": "p",
@@ -9594,7 +9572,7 @@
                             },
                             {
                               "type": "ellipse",
-                              "id": "em4cx",
+                              "id": "n1d4xN",
                               "x": 0,
                               "y": 16,
                               "name": "p",
@@ -9604,7 +9582,7 @@
                             },
                             {
                               "type": "ellipse",
-                              "id": "H0rSv9",
+                              "id": "V5ymdY",
                               "x": 8,
                               "y": 16,
                               "name": "p",
@@ -9614,7 +9592,7 @@
                             },
                             {
                               "type": "ellipse",
-                              "id": "C8OQaM",
+                              "id": "D7k1Z",
                               "x": 16,
                               "y": 16,
                               "name": "p",
@@ -9624,7 +9602,7 @@
                             },
                             {
                               "type": "ellipse",
-                              "id": "crDCi",
+                              "id": "CDMSa",
                               "x": 24,
                               "y": 16,
                               "name": "p",
@@ -9634,7 +9612,7 @@
                             },
                             {
                               "type": "ellipse",
-                              "id": "x44xDx",
+                              "id": "njji2",
                               "x": 32,
                               "y": 16,
                               "name": "p",
@@ -9644,7 +9622,7 @@
                             },
                             {
                               "type": "ellipse",
-                              "id": "GYwTM",
+                              "id": "R0lbw",
                               "x": 40,
                               "y": 16,
                               "name": "p",
@@ -9654,7 +9632,7 @@
                             },
                             {
                               "type": "ellipse",
-                              "id": "b0K8q",
+                              "id": "QApIu",
                               "x": 0,
                               "y": 24,
                               "name": "p",
@@ -9664,7 +9642,7 @@
                             },
                             {
                               "type": "ellipse",
-                              "id": "fxuQg",
+                              "id": "QqYZv",
                               "x": 8,
                               "y": 24,
                               "name": "p",
@@ -9674,7 +9652,7 @@
                             },
                             {
                               "type": "ellipse",
-                              "id": "momI0",
+                              "id": "Nrjhr",
                               "x": 16,
                               "y": 24,
                               "name": "p",
@@ -9684,7 +9662,7 @@
                             },
                             {
                               "type": "ellipse",
-                              "id": "VPm7s",
+                              "id": "kQMc1",
                               "x": 24,
                               "y": 24,
                               "name": "p",
@@ -9694,7 +9672,7 @@
                             },
                             {
                               "type": "ellipse",
-                              "id": "I9Ogpu",
+                              "id": "HlEh7",
                               "x": 32,
                               "y": 24,
                               "name": "p",
@@ -9704,7 +9682,7 @@
                             },
                             {
                               "type": "ellipse",
-                              "id": "V2cklb",
+                              "id": "ZgBPV",
                               "x": 40,
                               "y": 24,
                               "name": "p",
@@ -9716,7 +9694,7 @@
                         },
                         {
                           "type": "frame",
-                          "id": "E387Z",
+                          "id": "AvSUO",
                           "name": "Zap",
                           "width": 44,
                           "height": 44,
@@ -9728,7 +9706,7 @@
                           "children": [
                             {
                               "type": "icon",
-                              "id": "Es5Zx",
+                              "id": "jM86X",
                               "name": "I",
                               "width": 20,
                               "height": 20,
@@ -9746,20 +9724,22 @@
             },
             {
               "type": "frame",
-              "id": "InFbs",
+              "id": "n9WraS",
               "name": "Reseñas",
               "width": "fill_container",
               "fill": "#00000000",
               "layout": "vertical",
               "gap": 28,
               "padding": [
+                130,
+                120,
                 64,
                 120
               ],
               "children": [
                 {
                   "type": "frame",
-                  "id": "HQMJl",
+                  "id": "MmIPy",
                   "name": "Head",
                   "width": "fill_container",
                   "justifyContent": "space_between",
@@ -9767,7 +9747,7 @@
                   "children": [
                     {
                       "type": "text",
-                      "id": "rlQz6",
+                      "id": "xr8lb",
                       "name": "Title",
                       "fill": "#F5EEDD",
                       "content": "Lo que dicen",
@@ -9778,14 +9758,14 @@
                     },
                     {
                       "type": "frame",
-                      "id": "r18cWJ",
+                      "id": "H5YpL0",
                       "name": "Score",
                       "gap": 8,
                       "alignItems": "center",
                       "children": [
                         {
                           "type": "path",
-                          "id": "UNzNp",
+                          "id": "dOEAe",
                           "name": "Star",
                           "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
                           "viewBox": [
@@ -9800,7 +9780,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "qyMuS",
+                          "id": "KYtXz",
                           "name": "V",
                           "fill": "#F5EEDD",
                           "content": "4,9",
@@ -9810,7 +9790,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "SBpIG",
+                          "id": "S2rvSu",
                           "name": "C",
                           "fill": "#F5EEDD",
                           "content": "· 312 reseñas verificadas",
@@ -9824,7 +9804,7 @@
                 },
                 {
                   "type": "frame",
-                  "id": "aMKmN",
+                  "id": "mfG8n",
                   "name": "Fila 1",
                   "width": "fill_container",
                   "gap": 24,
@@ -9832,7 +9812,7 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "SzqF4",
+                      "id": "poau5",
                       "name": "Review Ale M.",
                       "width": 360,
                       "fill": "#FFFFFF",
@@ -9853,13 +9833,13 @@
                       "children": [
                         {
                           "type": "frame",
-                          "id": "R6fHns",
+                          "id": "wV3rh",
                           "name": "Stars",
                           "gap": 3,
                           "children": [
                             {
                               "type": "path",
-                              "id": "H9RH6Q",
+                              "id": "U4ONC",
                               "name": "Star",
                               "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
                               "viewBox": [
@@ -9874,7 +9854,7 @@
                             },
                             {
                               "type": "path",
-                              "id": "RyxyG",
+                              "id": "TB95t",
                               "name": "Star",
                               "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
                               "viewBox": [
@@ -9889,7 +9869,7 @@
                             },
                             {
                               "type": "path",
-                              "id": "wI3EH",
+                              "id": "BiiYM",
                               "name": "Star",
                               "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
                               "viewBox": [
@@ -9904,7 +9884,7 @@
                             },
                             {
                               "type": "path",
-                              "id": "xlheD",
+                              "id": "d0rqK9",
                               "name": "Star",
                               "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
                               "viewBox": [
@@ -9919,7 +9899,7 @@
                             },
                             {
                               "type": "path",
-                              "id": "bMSGm",
+                              "id": "T6IOu",
                               "name": "Star",
                               "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
                               "viewBox": [
@@ -9936,7 +9916,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "P3i43n",
+                          "id": "B2e3EI",
                           "name": "Text",
                           "fill": "#123F57",
                           "textGrowth": "fixed-width",
@@ -9949,14 +9929,14 @@
                         },
                         {
                           "type": "frame",
-                          "id": "bXpg5",
+                          "id": "cZ9aI",
                           "name": "Author",
                           "gap": 8,
                           "alignItems": "center",
                           "children": [
                             {
                               "type": "frame",
-                              "id": "kr6J2",
+                              "id": "Yv3vV",
                               "name": "Av",
                               "width": 30,
                               "height": 30,
@@ -9967,7 +9947,7 @@
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "Sn7Ad",
+                                  "id": "Xg69J",
                                   "name": "I",
                                   "fill": "#16587B",
                                   "content": "A",
@@ -9979,7 +9959,7 @@
                             },
                             {
                               "type": "text",
-                              "id": "V6V8i0",
+                              "id": "VQana",
                               "name": "N",
                               "fill": "#16587B",
                               "content": "Ale M.",
@@ -9993,7 +9973,7 @@
                     },
                     {
                       "type": "frame",
-                      "id": "gfJVy",
+                      "id": "j2FUd",
                       "name": "Review Juli R.",
                       "width": 360,
                       "fill": "#FFFFFF",
@@ -10014,13 +9994,13 @@
                       "children": [
                         {
                           "type": "frame",
-                          "id": "a9WhF",
+                          "id": "UH9vp",
                           "name": "Stars",
                           "gap": 3,
                           "children": [
                             {
                               "type": "path",
-                              "id": "RfveF",
+                              "id": "b60sL",
                               "name": "Star",
                               "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
                               "viewBox": [
@@ -10035,7 +10015,7 @@
                             },
                             {
                               "type": "path",
-                              "id": "Zrtt9",
+                              "id": "jLPsN",
                               "name": "Star",
                               "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
                               "viewBox": [
@@ -10050,7 +10030,7 @@
                             },
                             {
                               "type": "path",
-                              "id": "dkI8j",
+                              "id": "dESoM",
                               "name": "Star",
                               "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
                               "viewBox": [
@@ -10065,7 +10045,7 @@
                             },
                             {
                               "type": "path",
-                              "id": "axku1",
+                              "id": "t2XRFl",
                               "name": "Star",
                               "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
                               "viewBox": [
@@ -10080,7 +10060,7 @@
                             },
                             {
                               "type": "path",
-                              "id": "g9vRX",
+                              "id": "SqS7c",
                               "name": "Star",
                               "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
                               "viewBox": [
@@ -10097,7 +10077,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "FUojX",
+                          "id": "R9Brj",
                           "name": "Text",
                           "fill": "#123F57",
                           "textGrowth": "fixed-width",
@@ -10110,14 +10090,14 @@
                         },
                         {
                           "type": "frame",
-                          "id": "TXe1o",
+                          "id": "Mrdu3",
                           "name": "Author",
                           "gap": 8,
                           "alignItems": "center",
                           "children": [
                             {
                               "type": "frame",
-                              "id": "xgGHt",
+                              "id": "tzwGy",
                               "name": "Av",
                               "width": 30,
                               "height": 30,
@@ -10128,7 +10108,7 @@
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "FLoX3",
+                                  "id": "U2emAl",
                                   "name": "I",
                                   "fill": "#16587B",
                                   "content": "J",
@@ -10140,7 +10120,7 @@
                             },
                             {
                               "type": "text",
-                              "id": "NqIZZ",
+                              "id": "rGUCt",
                               "name": "N",
                               "fill": "#16587B",
                               "content": "Juli R.",
@@ -10154,7 +10134,7 @@
                     },
                     {
                       "type": "frame",
-                      "id": "D65hom",
+                      "id": "c47EL",
                       "name": "Review Nico P.",
                       "width": 360,
                       "fill": "#FFFFFF",
@@ -10175,13 +10155,13 @@
                       "children": [
                         {
                           "type": "frame",
-                          "id": "wn1vo",
+                          "id": "t5LPv",
                           "name": "Stars",
                           "gap": 3,
                           "children": [
                             {
                               "type": "path",
-                              "id": "Wjl7v",
+                              "id": "WkCMW",
                               "name": "Star",
                               "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
                               "viewBox": [
@@ -10196,7 +10176,7 @@
                             },
                             {
                               "type": "path",
-                              "id": "aKgq8",
+                              "id": "OktSE",
                               "name": "Star",
                               "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
                               "viewBox": [
@@ -10211,7 +10191,7 @@
                             },
                             {
                               "type": "path",
-                              "id": "ZESXy",
+                              "id": "WZTuI",
                               "name": "Star",
                               "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
                               "viewBox": [
@@ -10226,7 +10206,7 @@
                             },
                             {
                               "type": "path",
-                              "id": "mwpLe",
+                              "id": "j32WM",
                               "name": "Star",
                               "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
                               "viewBox": [
@@ -10241,7 +10221,7 @@
                             },
                             {
                               "type": "path",
-                              "id": "j3dEaS",
+                              "id": "VIAFn",
                               "name": "Star",
                               "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
                               "viewBox": [
@@ -10258,7 +10238,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "sCHZr",
+                          "id": "hay6x",
                           "name": "Text",
                           "fill": "#123F57",
                           "textGrowth": "fixed-width",
@@ -10271,14 +10251,14 @@
                         },
                         {
                           "type": "frame",
-                          "id": "KzOt9",
+                          "id": "L59Un",
                           "name": "Author",
                           "gap": 8,
                           "alignItems": "center",
                           "children": [
                             {
                               "type": "frame",
-                              "id": "N9dtn",
+                              "id": "mesEG",
                               "name": "Av",
                               "width": 30,
                               "height": 30,
@@ -10289,7 +10269,7 @@
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "kvvc8",
+                                  "id": "N1MDA",
                                   "name": "I",
                                   "fill": "#16587B",
                                   "content": "N",
@@ -10301,7 +10281,7 @@
                             },
                             {
                               "type": "text",
-                              "id": "pc8hh",
+                              "id": "mJGe3",
                               "name": "N",
                               "fill": "#16587B",
                               "content": "Nico P.",
@@ -10317,7 +10297,7 @@
                 },
                 {
                   "type": "frame",
-                  "id": "J2BNEv",
+                  "id": "St74u",
                   "name": "Fila 2",
                   "width": "fill_container",
                   "gap": 24,
@@ -10325,7 +10305,7 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "JUxhK",
+                      "id": "oGh7b",
                       "name": "Review Sofi G.",
                       "width": 360,
                       "fill": "#FFFFFF",
@@ -10346,13 +10326,13 @@
                       "children": [
                         {
                           "type": "frame",
-                          "id": "jUIHi",
+                          "id": "Ft57F",
                           "name": "Stars",
                           "gap": 3,
                           "children": [
                             {
                               "type": "path",
-                              "id": "g1kwe",
+                              "id": "A4aOY",
                               "name": "Star",
                               "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
                               "viewBox": [
@@ -10367,7 +10347,7 @@
                             },
                             {
                               "type": "path",
-                              "id": "gu7JW",
+                              "id": "cdnW8",
                               "name": "Star",
                               "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
                               "viewBox": [
@@ -10382,7 +10362,7 @@
                             },
                             {
                               "type": "path",
-                              "id": "idHPW",
+                              "id": "uXJf0",
                               "name": "Star",
                               "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
                               "viewBox": [
@@ -10397,7 +10377,7 @@
                             },
                             {
                               "type": "path",
-                              "id": "WyDyZ",
+                              "id": "xh6ft",
                               "name": "Star",
                               "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
                               "viewBox": [
@@ -10412,7 +10392,7 @@
                             },
                             {
                               "type": "path",
-                              "id": "EvFzH",
+                              "id": "MoUHR",
                               "name": "Star",
                               "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
                               "viewBox": [
@@ -10429,7 +10409,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "gtU8K",
+                          "id": "sUrNw",
                           "name": "Text",
                           "fill": "#123F57",
                           "textGrowth": "fixed-width",
@@ -10442,14 +10422,14 @@
                         },
                         {
                           "type": "frame",
-                          "id": "tAPID",
+                          "id": "d97PLJ",
                           "name": "Author",
                           "gap": 8,
                           "alignItems": "center",
                           "children": [
                             {
                               "type": "frame",
-                              "id": "qVWzD",
+                              "id": "b8mdO",
                               "name": "Av",
                               "width": 30,
                               "height": 30,
@@ -10460,7 +10440,7 @@
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "J3aRGr",
+                                  "id": "bZkv6",
                                   "name": "I",
                                   "fill": "#16587B",
                                   "content": "S",
@@ -10472,7 +10452,7 @@
                             },
                             {
                               "type": "text",
-                              "id": "Yg9m7",
+                              "id": "bx86g",
                               "name": "N",
                               "fill": "#16587B",
                               "content": "Sofi G.",
@@ -10486,7 +10466,7 @@
                     },
                     {
                       "type": "frame",
-                      "id": "V834z",
+                      "id": "jPLsu",
                       "name": "Review Tomi L.",
                       "width": 360,
                       "fill": "#FFFFFF",
@@ -10507,13 +10487,13 @@
                       "children": [
                         {
                           "type": "frame",
-                          "id": "d2mhom",
+                          "id": "ztJWk",
                           "name": "Stars",
                           "gap": 3,
                           "children": [
                             {
                               "type": "path",
-                              "id": "O1cuj",
+                              "id": "jKlBR",
                               "name": "Star",
                               "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
                               "viewBox": [
@@ -10528,7 +10508,7 @@
                             },
                             {
                               "type": "path",
-                              "id": "DMhDH",
+                              "id": "MQC2R",
                               "name": "Star",
                               "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
                               "viewBox": [
@@ -10543,7 +10523,7 @@
                             },
                             {
                               "type": "path",
-                              "id": "Ljm1x",
+                              "id": "lbcon",
                               "name": "Star",
                               "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
                               "viewBox": [
@@ -10558,7 +10538,7 @@
                             },
                             {
                               "type": "path",
-                              "id": "SSbvp",
+                              "id": "zjiu7",
                               "name": "Star",
                               "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
                               "viewBox": [
@@ -10573,7 +10553,7 @@
                             },
                             {
                               "type": "path",
-                              "id": "U244M",
+                              "id": "T3FqB",
                               "name": "Star",
                               "geometry": "M12 2l3.09 6.26 6.91 1.01-5 4.87 1.18 6.88-6.18-3.25-6.18 3.25 1.18-6.88-5-4.87 6.91-1.01 3.09-6.26z",
                               "viewBox": [
@@ -10590,7 +10570,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "wvuep",
+                          "id": "N4uo9U",
                           "name": "Text",
                           "fill": "#123F57",
                           "textGrowth": "fixed-width",
@@ -10603,14 +10583,14 @@
                         },
                         {
                           "type": "frame",
-                          "id": "b8Upf",
+                          "id": "SKdg7",
                           "name": "Author",
                           "gap": 8,
                           "alignItems": "center",
                           "children": [
                             {
                               "type": "frame",
-                              "id": "d6iT5",
+                              "id": "mp9Ah",
                               "name": "Av",
                               "width": 30,
                               "height": 30,
@@ -10621,7 +10601,7 @@
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "oLVcX",
+                                  "id": "dBE5p",
                                   "name": "I",
                                   "fill": "#16587B",
                                   "content": "T",
@@ -10633,7 +10613,7 @@
                             },
                             {
                               "type": "text",
-                              "id": "rQRwH",
+                              "id": "HYHKS",
                               "name": "N",
                               "fill": "#16587B",
                               "content": "Tomi L.",
@@ -10651,7 +10631,7 @@
             },
             {
               "type": "frame",
-              "id": "j8LDJ2",
+              "id": "Izi7Y",
               "name": "Productos",
               "width": "fill_container",
               "fill": "#00000000",
@@ -10666,7 +10646,7 @@
               "children": [
                 {
                   "type": "frame",
-                  "id": "s6HCuI",
+                  "id": "yTjer",
                   "name": "Head",
                   "width": "fill_container",
                   "justifyContent": "space_between",
@@ -10674,14 +10654,14 @@
                   "children": [
                     {
                       "type": "frame",
-                      "id": "DYsgJ",
+                      "id": "vQ0SG",
                       "name": "L",
                       "layout": "vertical",
                       "gap": 6,
                       "children": [
                         {
                           "type": "text",
-                          "id": "kYxgm",
+                          "id": "WXxwO",
                           "name": "Title",
                           "fill": "#F5EEDD",
                           "content": "Elegí tu paquete",
@@ -10692,7 +10672,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "ZMw4m",
+                          "id": "IwYCB",
                           "name": "Sub",
                           "fill": "#F5EEDD",
                           "content": "Precios finales en pesos. Se acredita directo en tu ID de jugador.",
@@ -10704,14 +10684,14 @@
                     },
                     {
                       "type": "frame",
-                      "id": "zPsUI",
+                      "id": "nLeG9",
                       "name": "Nota",
                       "gap": 6,
                       "alignItems": "center",
                       "children": [
                         {
                           "type": "icon",
-                          "id": "U6jCK",
+                          "id": "iA6H9",
                           "name": "I",
                           "width": 16,
                           "height": 16,
@@ -10721,7 +10701,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "ACNt1",
+                          "id": "O7Y0V",
                           "name": "T",
                           "fill": "#F5EEDD",
                           "content": "Se acredita en 1–3 minutos",
@@ -10735,14 +10715,14 @@
                 },
                 {
                   "type": "frame",
-                  "id": "yGvQl",
+                  "id": "wfwaO",
                   "name": "Columnas",
                   "width": "fill_container",
                   "gap": 16,
                   "children": [
                     {
                       "type": "frame",
-                      "id": "ugqEX",
+                      "id": "HoPC0",
                       "name": "Col 1",
                       "width": "fill_container",
                       "layout": "vertical",
@@ -10750,7 +10730,7 @@
                       "children": [
                         {
                           "type": "frame",
-                          "id": "WgLEE",
+                          "id": "eQdSR",
                           "name": "Paquete 110",
                           "width": "fill_container",
                           "fill": "#FFFFFF",
@@ -10768,7 +10748,7 @@
                           "children": [
                             {
                               "type": "frame",
-                              "id": "S1VH6",
+                              "id": "hPXuJ",
                               "name": "Gemas",
                               "width": 44,
                               "height": 44,
@@ -10776,7 +10756,7 @@
                               "children": [
                                 {
                                   "type": "icon",
-                                  "id": "NSWdb",
+                                  "id": "kqkDm",
                                   "x": 12,
                                   "y": 12,
                                   "name": "Gem",
@@ -10790,7 +10770,7 @@
                             },
                             {
                               "type": "frame",
-                              "id": "mmXlU",
+                              "id": "CTaNg",
                               "name": "Texto",
                               "width": "fill_container",
                               "layout": "vertical",
@@ -10798,14 +10778,14 @@
                               "children": [
                                 {
                                   "type": "frame",
-                                  "id": "cxysA",
+                                  "id": "zGk7W",
                                   "name": "Qty",
                                   "layout": "vertical",
                                   "gap": 2,
                                   "children": [
                                     {
                                       "type": "text",
-                                      "id": "k2FeD",
+                                      "id": "PeFdO",
                                       "name": "N",
                                       "fill": "#16587B",
                                       "content": "110",
@@ -10816,7 +10796,7 @@
                                     },
                                     {
                                       "type": "text",
-                                      "id": "Cq0Ay",
+                                      "id": "xbxPM",
                                       "name": "U",
                                       "fill": "#2A5F7C",
                                       "content": "diamantes",
@@ -10830,14 +10810,14 @@
                             },
                             {
                               "type": "frame",
-                              "id": "lzMDV",
+                              "id": "M0G4c",
                               "name": "Precio",
                               "layout": "vertical",
                               "alignItems": "end",
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "eGoPW",
+                                  "id": "Byw6I",
                                   "name": "P",
                                   "fill": "#123F57",
                                   "content": "$ 1.200",
@@ -10849,7 +10829,7 @@
                             },
                             {
                               "type": "frame",
-                              "id": "rh5bQ",
+                              "id": "jPd8J",
                               "name": "Agregar",
                               "width": 44,
                               "height": 44,
@@ -10860,7 +10840,7 @@
                               "children": [
                                 {
                                   "type": "icon",
-                                  "id": "Jh547",
+                                  "id": "tLYU0",
                                   "name": "I",
                                   "width": 20,
                                   "height": 20,
@@ -10874,7 +10854,7 @@
                         },
                         {
                           "type": "frame",
-                          "id": "KuevN",
+                          "id": "ZThMZ",
                           "name": "Paquete 341",
                           "width": "fill_container",
                           "fill": "#FFFFFF",
@@ -10892,7 +10872,7 @@
                           "children": [
                             {
                               "type": "frame",
-                              "id": "XR821",
+                              "id": "hsnXm",
                               "name": "Gemas",
                               "width": 44,
                               "height": 44,
@@ -10900,7 +10880,7 @@
                               "children": [
                                 {
                                   "type": "icon",
-                                  "id": "eQCPp",
+                                  "id": "Syr9H",
                                   "x": 12,
                                   "y": 12,
                                   "name": "Gem",
@@ -10912,7 +10892,7 @@
                                 },
                                 {
                                   "type": "icon",
-                                  "id": "WDTIU",
+                                  "id": "xK9C1",
                                   "x": 2,
                                   "y": 20,
                                   "name": "Gem",
@@ -10926,7 +10906,7 @@
                             },
                             {
                               "type": "frame",
-                              "id": "UJNQi",
+                              "id": "o8zOa",
                               "name": "Texto",
                               "width": "fill_container",
                               "layout": "vertical",
@@ -10934,14 +10914,14 @@
                               "children": [
                                 {
                                   "type": "frame",
-                                  "id": "oERZU",
+                                  "id": "NCXtT",
                                   "name": "Qty",
                                   "layout": "vertical",
                                   "gap": 2,
                                   "children": [
                                     {
                                       "type": "text",
-                                      "id": "qrGnZ",
+                                      "id": "Z0ijzT",
                                       "name": "N",
                                       "fill": "#16587B",
                                       "content": "341",
@@ -10952,7 +10932,7 @@
                                     },
                                     {
                                       "type": "text",
-                                      "id": "dbLbs",
+                                      "id": "IcUHS",
                                       "name": "U",
                                       "fill": "#2A5F7C",
                                       "content": "diamantes",
@@ -10966,14 +10946,14 @@
                             },
                             {
                               "type": "frame",
-                              "id": "qJ89N",
+                              "id": "VrcAC",
                               "name": "Precio",
                               "layout": "vertical",
                               "alignItems": "end",
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "gedHW",
+                                  "id": "C8kdX",
                                   "name": "P",
                                   "fill": "#123F57",
                                   "content": "$ 3.500",
@@ -10985,7 +10965,7 @@
                             },
                             {
                               "type": "frame",
-                              "id": "oTy8X",
+                              "id": "o7HMj0",
                               "name": "Agregar",
                               "width": 44,
                               "height": 44,
@@ -10996,7 +10976,7 @@
                               "children": [
                                 {
                                   "type": "icon",
-                                  "id": "CD3ZK",
+                                  "id": "X9WSva",
                                   "name": "I",
                                   "width": 20,
                                   "height": 20,
@@ -11010,7 +10990,7 @@
                         },
                         {
                           "type": "frame",
-                          "id": "T4MLT",
+                          "id": "PNv0g",
                           "name": "Paquete 572",
                           "width": "fill_container",
                           "fill": "#16587B",
@@ -11038,7 +11018,7 @@
                           "children": [
                             {
                               "type": "frame",
-                              "id": "cz8oi",
+                              "id": "CxTED",
                               "name": "Gemas",
                               "width": 44,
                               "height": 44,
@@ -11046,7 +11026,7 @@
                               "children": [
                                 {
                                   "type": "icon",
-                                  "id": "KyBvg",
+                                  "id": "V88Zi",
                                   "x": 12,
                                   "y": 12,
                                   "name": "Gem",
@@ -11058,7 +11038,7 @@
                                 },
                                 {
                                   "type": "icon",
-                                  "id": "W5LFXx",
+                                  "id": "H5rNS",
                                   "x": 2,
                                   "y": 20,
                                   "name": "Gem",
@@ -11070,7 +11050,7 @@
                                 },
                                 {
                                   "type": "icon",
-                                  "id": "g8X2R9",
+                                  "id": "HLftB",
                                   "x": 24,
                                   "y": 22,
                                   "name": "Gem",
@@ -11084,7 +11064,7 @@
                             },
                             {
                               "type": "frame",
-                              "id": "x9DxGh",
+                              "id": "hLFAK",
                               "name": "Texto",
                               "width": "fill_container",
                               "layout": "vertical",
@@ -11092,14 +11072,14 @@
                               "children": [
                                 {
                                   "type": "frame",
-                                  "id": "Fzaq1",
+                                  "id": "TDGID",
                                   "name": "Qty",
                                   "layout": "vertical",
                                   "gap": 2,
                                   "children": [
                                     {
                                       "type": "text",
-                                      "id": "qehOD",
+                                      "id": "BVEvz",
                                       "name": "N",
                                       "fill": "#F5EEDD",
                                       "content": "572",
@@ -11110,7 +11090,7 @@
                                     },
                                     {
                                       "type": "text",
-                                      "id": "r16C3f",
+                                      "id": "Wi9Wi",
                                       "name": "U",
                                       "fill": "#CFE2EC",
                                       "content": "diamantes",
@@ -11122,7 +11102,7 @@
                                 },
                                 {
                                   "type": "frame",
-                                  "id": "WhoV8",
+                                  "id": "rLoBF",
                                   "name": "Tag",
                                   "fill": "#84B3CE",
                                   "cornerRadius": 999,
@@ -11133,7 +11113,7 @@
                                   "children": [
                                     {
                                       "type": "text",
-                                      "id": "y4If0",
+                                      "id": "UxwTl",
                                       "name": "L",
                                       "fill": "#0F4462",
                                       "content": "Más pedido",
@@ -11147,14 +11127,14 @@
                             },
                             {
                               "type": "frame",
-                              "id": "x8JWx3",
+                              "id": "f3nnS",
                               "name": "Precio",
                               "layout": "vertical",
                               "alignItems": "end",
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "B676T",
+                                  "id": "rSt0Z",
                                   "name": "P",
                                   "fill": "#F5EEDD",
                                   "content": "$ 5.800",
@@ -11166,7 +11146,7 @@
                             },
                             {
                               "type": "frame",
-                              "id": "hRGCH",
+                              "id": "G1F8lD",
                               "name": "Agregar",
                               "width": 44,
                               "height": 44,
@@ -11177,7 +11157,7 @@
                               "children": [
                                 {
                                   "type": "icon",
-                                  "id": "kuFzV",
+                                  "id": "v0vtdL",
                                   "name": "I",
                                   "width": 20,
                                   "height": 20,
@@ -11193,7 +11173,7 @@
                     },
                     {
                       "type": "frame",
-                      "id": "u5Gne7",
+                      "id": "n04ia9",
                       "name": "Col 2",
                       "width": "fill_container",
                       "layout": "vertical",
@@ -11201,7 +11181,7 @@
                       "children": [
                         {
                           "type": "frame",
-                          "id": "C2R3w",
+                          "id": "MPlId",
                           "name": "Paquete 1.166",
                           "width": "fill_container",
                           "fill": "#FFFFFF",
@@ -11219,7 +11199,7 @@
                           "children": [
                             {
                               "type": "frame",
-                              "id": "QLazv",
+                              "id": "SM15R",
                               "name": "Gemas",
                               "width": 44,
                               "height": 44,
@@ -11227,7 +11207,7 @@
                               "children": [
                                 {
                                   "type": "icon",
-                                  "id": "bBMJc",
+                                  "id": "RxNTH",
                                   "x": 12,
                                   "y": 12,
                                   "name": "Gem",
@@ -11239,7 +11219,7 @@
                                 },
                                 {
                                   "type": "icon",
-                                  "id": "xHvgT",
+                                  "id": "BMChp",
                                   "x": 2,
                                   "y": 20,
                                   "name": "Gem",
@@ -11251,7 +11231,7 @@
                                 },
                                 {
                                   "type": "icon",
-                                  "id": "d0rp53",
+                                  "id": "bADRr",
                                   "x": 24,
                                   "y": 22,
                                   "name": "Gem",
@@ -11265,7 +11245,7 @@
                             },
                             {
                               "type": "frame",
-                              "id": "BKeUD",
+                              "id": "E0tQ2",
                               "name": "Texto",
                               "width": "fill_container",
                               "layout": "vertical",
@@ -11273,14 +11253,14 @@
                               "children": [
                                 {
                                   "type": "frame",
-                                  "id": "he9av",
+                                  "id": "uP7v8",
                                   "name": "Qty",
                                   "layout": "vertical",
                                   "gap": 2,
                                   "children": [
                                     {
                                       "type": "text",
-                                      "id": "o8ag8j",
+                                      "id": "xBvp0",
                                       "name": "N",
                                       "fill": "#16587B",
                                       "content": "1.166",
@@ -11291,7 +11271,7 @@
                                     },
                                     {
                                       "type": "text",
-                                      "id": "Zon3z",
+                                      "id": "hIViQ",
                                       "name": "U",
                                       "fill": "#2A5F7C",
                                       "content": "diamantes",
@@ -11305,14 +11285,14 @@
                             },
                             {
                               "type": "frame",
-                              "id": "HNZON",
+                              "id": "bffLy",
                               "name": "Precio",
                               "layout": "vertical",
                               "alignItems": "end",
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "VHChX",
+                                  "id": "LgnF3",
                                   "name": "P",
                                   "fill": "#123F57",
                                   "content": "$ 11.500",
@@ -11324,7 +11304,7 @@
                             },
                             {
                               "type": "frame",
-                              "id": "n2m9G",
+                              "id": "XLdQX",
                               "name": "Agregar",
                               "width": 44,
                               "height": 44,
@@ -11335,7 +11315,7 @@
                               "children": [
                                 {
                                   "type": "icon",
-                                  "id": "fbOVS",
+                                  "id": "muIay",
                                   "name": "I",
                                   "width": 20,
                                   "height": 20,
@@ -11349,7 +11329,7 @@
                         },
                         {
                           "type": "frame",
-                          "id": "lmhpd",
+                          "id": "H4qKDu",
                           "name": "Paquete 2.398",
                           "width": "fill_container",
                           "fill": "#FFFFFF",
@@ -11367,7 +11347,7 @@
                           "children": [
                             {
                               "type": "frame",
-                              "id": "f8iLq",
+                              "id": "P0Zsp8",
                               "name": "Gemas",
                               "width": 44,
                               "height": 44,
@@ -11375,7 +11355,7 @@
                               "children": [
                                 {
                                   "type": "icon",
-                                  "id": "ss6zK",
+                                  "id": "h6sgye",
                                   "x": 12,
                                   "y": 12,
                                   "name": "Gem",
@@ -11387,7 +11367,7 @@
                                 },
                                 {
                                   "type": "icon",
-                                  "id": "f8ARy7",
+                                  "id": "T1bLPI",
                                   "x": 2,
                                   "y": 20,
                                   "name": "Gem",
@@ -11399,7 +11379,7 @@
                                 },
                                 {
                                   "type": "icon",
-                                  "id": "tRDpb",
+                                  "id": "bMI8D",
                                   "x": 24,
                                   "y": 22,
                                   "name": "Gem",
@@ -11411,7 +11391,7 @@
                                 },
                                 {
                                   "type": "icon",
-                                  "id": "B0kJ8h",
+                                  "id": "dVM3m",
                                   "x": 8,
                                   "y": 2,
                                   "name": "Gem",
@@ -11425,7 +11405,7 @@
                             },
                             {
                               "type": "frame",
-                              "id": "jVCXz",
+                              "id": "apmvE",
                               "name": "Texto",
                               "width": "fill_container",
                               "layout": "vertical",
@@ -11433,14 +11413,14 @@
                               "children": [
                                 {
                                   "type": "frame",
-                                  "id": "dNuqK",
+                                  "id": "m2c5n",
                                   "name": "Qty",
                                   "layout": "vertical",
                                   "gap": 2,
                                   "children": [
                                     {
                                       "type": "text",
-                                      "id": "seYOy",
+                                      "id": "EeigU",
                                       "name": "N",
                                       "fill": "#16587B",
                                       "content": "2.398",
@@ -11451,7 +11431,7 @@
                                     },
                                     {
                                       "type": "text",
-                                      "id": "Uv8Cg",
+                                      "id": "vKCYX",
                                       "name": "U",
                                       "fill": "#2A5F7C",
                                       "content": "diamantes",
@@ -11465,14 +11445,14 @@
                             },
                             {
                               "type": "frame",
-                              "id": "I5rbCj",
+                              "id": "NGqF5",
                               "name": "Precio",
                               "layout": "vertical",
                               "alignItems": "end",
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "OYrRZ",
+                                  "id": "u6GdZO",
                                   "name": "P",
                                   "fill": "#123F57",
                                   "content": "$ 23.000",
@@ -11484,7 +11464,7 @@
                             },
                             {
                               "type": "frame",
-                              "id": "N6pp3C",
+                              "id": "zwuvP",
                               "name": "Agregar",
                               "width": 44,
                               "height": 44,
@@ -11495,7 +11475,7 @@
                               "children": [
                                 {
                                   "type": "icon",
-                                  "id": "i6gGkx",
+                                  "id": "P40VnB",
                                   "name": "I",
                                   "width": 20,
                                   "height": 20,
@@ -11509,7 +11489,7 @@
                         },
                         {
                           "type": "frame",
-                          "id": "dSwQl",
+                          "id": "n7SWt",
                           "name": "Paquete 6.160",
                           "width": "fill_container",
                           "fill": "#FFFFFF",
@@ -11527,7 +11507,7 @@
                           "children": [
                             {
                               "type": "frame",
-                              "id": "m2xpn",
+                              "id": "IiAa1",
                               "name": "Gemas",
                               "width": 44,
                               "height": 44,
@@ -11535,7 +11515,7 @@
                               "children": [
                                 {
                                   "type": "icon",
-                                  "id": "o1SrXp",
+                                  "id": "XVKIk",
                                   "x": 12,
                                   "y": 12,
                                   "name": "Gem",
@@ -11547,7 +11527,7 @@
                                 },
                                 {
                                   "type": "icon",
-                                  "id": "cBNCd",
+                                  "id": "z7UX0W",
                                   "x": 2,
                                   "y": 20,
                                   "name": "Gem",
@@ -11559,7 +11539,7 @@
                                 },
                                 {
                                   "type": "icon",
-                                  "id": "Xof10",
+                                  "id": "B6szg",
                                   "x": 24,
                                   "y": 22,
                                   "name": "Gem",
@@ -11571,7 +11551,7 @@
                                 },
                                 {
                                   "type": "icon",
-                                  "id": "kBMpJ",
+                                  "id": "TJy0S",
                                   "x": 8,
                                   "y": 2,
                                   "name": "Gem",
@@ -11583,7 +11563,7 @@
                                 },
                                 {
                                   "type": "icon",
-                                  "id": "mgv0U",
+                                  "id": "QsEyt",
                                   "x": 26,
                                   "y": 4,
                                   "name": "Gem",
@@ -11597,7 +11577,7 @@
                             },
                             {
                               "type": "frame",
-                              "id": "mZuzN",
+                              "id": "usuGc",
                               "name": "Texto",
                               "width": "fill_container",
                               "layout": "vertical",
@@ -11605,14 +11585,14 @@
                               "children": [
                                 {
                                   "type": "frame",
-                                  "id": "P82Sx",
+                                  "id": "IyHcX",
                                   "name": "Qty",
                                   "layout": "vertical",
                                   "gap": 2,
                                   "children": [
                                     {
                                       "type": "text",
-                                      "id": "T2J7v",
+                                      "id": "xU1hP",
                                       "name": "N",
                                       "fill": "#16587B",
                                       "content": "6.160",
@@ -11623,7 +11603,7 @@
                                     },
                                     {
                                       "type": "text",
-                                      "id": "b2aJOt",
+                                      "id": "poAmt",
                                       "name": "U",
                                       "fill": "#2A5F7C",
                                       "content": "diamantes",
@@ -11637,14 +11617,14 @@
                             },
                             {
                               "type": "frame",
-                              "id": "rNrpe",
+                              "id": "KpVFU",
                               "name": "Precio",
                               "layout": "vertical",
                               "alignItems": "end",
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "MQOWg",
+                                  "id": "YqlYN",
                                   "name": "P",
                                   "fill": "#123F57",
                                   "content": "$ 57.000",
@@ -11656,7 +11636,7 @@
                             },
                             {
                               "type": "frame",
-                              "id": "gnFiJ",
+                              "id": "x8ibpw",
                               "name": "Agregar",
                               "width": 44,
                               "height": 44,
@@ -11667,7 +11647,7 @@
                               "children": [
                                 {
                                   "type": "icon",
-                                  "id": "oJd0e",
+                                  "id": "p8t94u",
                                   "name": "I",
                                   "width": 20,
                                   "height": 20,
@@ -11687,7 +11667,7 @@
             },
             {
               "type": "frame",
-              "id": "p9ZJO",
+              "id": "XAuZk",
               "name": "Footer",
               "width": "fill_container",
               "fill": "#16587B",
@@ -11700,7 +11680,7 @@
               "children": [
                 {
                   "type": "text",
-                  "id": "qlMYJ",
+                  "id": "mh0Ol",
                   "name": "Brand",
                   "fill": "#F5EEDD",
                   "content": "Pixie Store",
@@ -11710,7 +11690,7 @@
                 },
                 {
                   "type": "text",
-                  "id": "VviVh",
+                  "id": "AqFXs",
                   "name": "Info",
                   "fill": "#CFE2EC",
                   "content": "Pagos con Chytapay · Soporte por WhatsApp",
@@ -12421,7 +12401,7 @@
                           "type": "text",
                           "id": "L4PKk",
                           "name": "Value",
-                          "fill": "#5E88A0",
+                          "fill": "#46728C",
                           "content": "Ej: 1234567890",
                           "fontFamily": "Nunito",
                           "fontSize": 16,
@@ -12909,7 +12889,7 @@
                   "type": "text",
                   "id": "T6dGH2",
                   "name": "Text",
-                  "fill": "#2A5F7C",
+                  "fill": "#123F57",
                   "effect": {
                     "type": "shadow",
                     "shadowType": "outer",
@@ -13110,26 +13090,17 @@
               "type": "frame",
               "id": "k9A33",
               "name": "Ilustración personaje (derecha)",
-              "width": 500,
-              "height": 580,
+              "width": 540,
+              "height": 540,
               "fill": {
-                "type": "shader",
+                "type": "image",
                 "enabled": true,
-                "url": "assets/shaders/pixie-ocean.glsl",
-                "uniforms": {
-                  "u_light": "#C2D9E7",
-                  "u_shadow": "#84B3CE",
-                  "u_line": "#FFFFFF",
-                  "u_deep": "#16587B",
-                  "u_abyss": "#0B3A55",
-                  "u_depthTop": 0.6,
-                  "u_depthBottom": 0.95,
-                  "u_cell": 110,
-                  "u_caustics": 1,
-                  "u_speed": 1
-                }
+                "url": "assets/logo-shop-pixie.png",
+                "mode": "cover"
               },
               "cornerRadius": 40,
+              "stroke": "#FFFFFF",
+              "strokeWidth": 6,
               "effect": {
                 "type": "shadow",
                 "shadowType": "outer",
@@ -13143,48 +13114,12 @@
               "layout": "none",
               "children": [
                 {
-                  "type": "text",
-                  "id": "lAmBj",
-                  "x": 28,
-                  "y": 420,
-                  "name": "Marca",
-                  "fill": "#F5EEDD26",
-                  "content": "PIXIE",
-                  "fontFamily": "Modak",
-                  "fontSize": 130,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "frame",
-                  "id": "gPiHL",
-                  "x": 90,
-                  "y": 40,
-                  "name": "Personaje",
-                  "width": 340,
-                  "height": 544,
-                  "fill": {
-                    "type": "image",
-                    "enabled": true,
-                    "url": "assets/hero/personaje.png",
-                    "mode": "contain"
-                  },
-                  "effect": {
-                    "type": "shader",
-                    "url": "assets/shaders/float.glsl",
-                    "uniforms": {
-                      "u_content": "pencil:object",
-                      "u_amp": 7,
-                      "u_speed": 1,
-                      "u_phase": 0.4
-                    }
-                  }
-                },
-                {
                   "type": "frame",
                   "id": "iUhUS",
                   "x": 20,
                   "y": 532,
                   "name": "Nota comisión",
+                  "enabled": false,
                   "fill": "#F5EEDDEE",
                   "cornerRadius": 999,
                   "padding": [
@@ -15801,7 +15736,7 @@
           "u_depthBottom": 1,
           "u_cell": 150,
           "u_caustics": 1,
-          "u_speed": 1
+          "u_speed": 1.0001
         }
       },
       "layout": "vertical",
@@ -16682,7 +16617,7 @@
           "layout": "vertical",
           "gap": 16,
           "padding": [
-            28,
+            110,
             0,
             24,
             0
@@ -18618,7 +18553,7 @@
           "u_depthBottom": 1,
           "u_cell": 150,
           "u_caustics": 1,
-          "u_speed": 1
+          "u_speed": 1.0001
         }
       },
       "layout": "vertical",
@@ -18816,7 +18751,7 @@
                   "type": "text",
                   "id": "iorYr",
                   "name": "Sub",
-                  "fill": "#2A5F7C",
+                  "fill": "#123F57",
                   "effect": {
                     "type": "shadow",
                     "shadowType": "outer",
@@ -18933,7 +18868,7 @@
                       "type": "text",
                       "id": "zB40v",
                       "name": "T",
-                      "fill": "#2A5F7C",
+                      "fill": "#123F57",
                       "effect": {
                         "type": "shadow",
                         "shadowType": "outer",
@@ -19738,6 +19673,8 @@
           "layout": "vertical",
           "gap": 28,
           "padding": [
+            130,
+            120,
             64,
             120
           ],

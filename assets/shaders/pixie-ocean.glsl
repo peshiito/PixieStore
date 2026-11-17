@@ -139,10 +139,10 @@ void main() {
   float depth = mix(u_depthTop, u_depthBottom, 1.0 - uv.y);
 
   vec3 surface = u_light;
-  vec3 col = mix(surface, u_deep, smoothstep(0.36, 0.5, depth));
+  vec3 col = mix(surface, u_deep, smoothstep(0.40, 0.47, depth));
   col = mix(col, u_abyss, smoothstep(0.68, 1.0, depth));
 
-  float caus = u_caustics * (1.0 - smoothstep(0.33, 0.46, depth));
+  float caus = u_caustics * (1.0 - smoothstep(0.38, 0.46, depth));
   vec2 x = px / u_cell;
   if (caus > 0.001) {
     float sh = network(x + vec2(0.16, 0.13), t, 2.1);
