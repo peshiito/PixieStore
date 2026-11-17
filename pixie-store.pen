@@ -12862,7 +12862,7 @@
           "u_bubble": "#84B3CE",
           "u_wave": "#16587B",
           "u_waveHeight": 0.3,
-          "u_speed": 1.01
+          "u_speed": 1
         }
       },
       "layout": "vertical",
@@ -13006,78 +13006,254 @@
           "children": [
             {
               "type": "frame",
-              "id": "dvBJF",
-              "name": "Centro",
-              "width": "fill_container",
-              "layout": "vertical",
-              "gap": 16,
-              "padding": [
-                16,
-                24,
-                0,
-                24
-              ],
-              "alignItems": "center",
+              "id": "TND4B",
+              "name": "Collage",
+              "width": 390,
+              "height": 500,
+              "layout": "none",
               "children": [
                 {
+                  "type": "text",
+                  "id": "Y8EMS",
+                  "x": 20,
+                  "y": 18,
+                  "name": "Title",
+                  "fill": "#16587B",
+                  "content": "Los precios que\nbuscás, con la\nmejor tienda",
+                  "lineHeight": 0.95,
+                  "fontFamily": "Modak",
+                  "fontSize": 48,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "path",
+                  "id": "OPB7H",
+                  "x": 18,
+                  "y": 150,
+                  "name": "Subrayado",
+                  "geometry": "M2 12c18-9 34 7 54-2s36-8 56 1 36 8 54-3",
+                  "viewBox": [
+                    0,
+                    0,
+                    168,
+                    20
+                  ],
+                  "width": 290,
+                  "height": 18,
+                  "stroke": "#84B3CE",
+                  "strokeWidth": 5,
+                  "strokeLinejoin": "round",
+                  "strokeLinecap": "round"
+                },
+                {
+                  "type": "text",
+                  "id": "Q71ha",
+                  "x": 20,
+                  "y": 184,
+                  "name": "Sub",
+                  "fill": "#2A5F7C",
+                  "textGrowth": "fixed-width",
+                  "width": 200,
+                  "content": "Pegá tu ID, pagá y la recarga entra sola. Sin crear cuenta.",
+                  "lineHeight": 1.45,
+                  "fontFamily": "Nunito",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
                   "type": "frame",
-                  "id": "z01dyf",
-                  "name": "Logo burbuja",
-                  "width": 168,
-                  "height": 168,
+                  "id": "N4jBx",
+                  "x": 178,
+                  "y": 228,
+                  "name": "Logo sticker",
+                  "rotation": -7,
+                  "width": 196,
+                  "height": 196,
                   "fill": {
                     "type": "image",
                     "enabled": true,
                     "url": "assets/logo-shop-pixie.png",
                     "mode": "cover",
                     "transform": [
-                      1.18,
+                      1.1,
                       0,
                       0,
-                      1.18,
-                      -0.09,
-                      -0.09
+                      1.1,
+                      -0.05,
+                      -0.05
                     ]
                   },
+                  "cornerRadius": 42,
+                  "stroke": "#FFFFFF",
+                  "strokeWidth": 7,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#16587B47",
+                    "offset": {
+                      "x": 4,
+                      "y": 14
+                    },
+                    "blur": 24
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "JVZdM",
+                  "x": 22,
+                  "y": 372,
+                  "name": "Sticker entrega",
+                  "rotation": 6.000000000000001,
+                  "fill": "#16587B",
                   "cornerRadius": 999,
                   "stroke": "#FFFFFF",
-                  "strokeWidth": 6,
+                  "strokeWidth": 3,
                   "effect": {
                     "type": "shadow",
                     "shadowType": "outer",
                     "color": "#16587B40",
                     "offset": {
-                      "x": 0,
-                      "y": 16
+                      "x": 2,
+                      "y": 6
                     },
-                    "blur": 30
-                  }
+                    "blur": 12
+                  },
+                  "gap": 6,
+                  "padding": [
+                    9,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "XlL0O",
+                      "name": "I",
+                      "width": 15,
+                      "height": 15,
+                      "icon": "zap",
+                      "library": "lucide",
+                      "fill": "#84B3CE"
+                    },
+                    {
+                      "type": "text",
+                      "id": "r2Jmb",
+                      "name": "L",
+                      "fill": "#F5EEDD",
+                      "content": "entrega en minutos",
+                      "fontFamily": "Nunito",
+                      "fontSize": 14,
+                      "fontWeight": "900"
+                    }
+                  ]
                 },
                 {
-                  "type": "text",
-                  "id": "r7O9Q",
-                  "name": "Title",
+                  "type": "frame",
+                  "id": "NYugv",
+                  "x": 64,
+                  "y": 428,
+                  "name": "Sticker sin cuenta",
+                  "rotation": -4,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 999,
+                  "stroke": "#84B3CE",
+                  "strokeWidth": 2,
+                  "gap": 6,
+                  "padding": [
+                    7,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "RLVyQ",
+                      "name": "I",
+                      "width": 14,
+                      "height": 14,
+                      "icon": "user-x",
+                      "library": "lucide",
+                      "fill": "#16587B"
+                    },
+                    {
+                      "type": "text",
+                      "id": "HixoA",
+                      "name": "L",
+                      "fill": "#16587B",
+                      "content": "sin crear cuenta",
+                      "fontFamily": "Nunito",
+                      "fontSize": 13,
+                      "fontWeight": "800"
+                    }
+                  ]
+                },
+                {
+                  "type": "path",
+                  "id": "OZi05",
+                  "x": 332,
+                  "y": 196,
+                  "name": "Destello",
+                  "geometry": "M12 0c1 7 5 11 12 12-7 1-11 5-12 12-1-7-5-11-12-12 7-1 11-5 12-12z",
+                  "viewBox": [
+                    0,
+                    0,
+                    24,
+                    24
+                  ],
                   "fill": "#16587B",
-                  "content": "Los precios que\nbuscás, con la\nmejor tienda",
-                  "lineHeight": 0.98,
-                  "textAlign": "center",
-                  "fontFamily": "Modak",
-                  "fontSize": 44,
-                  "fontWeight": "normal"
+                  "width": 28,
+                  "height": 28
                 },
                 {
-                  "type": "text",
-                  "id": "DWLMJ",
-                  "name": "Sub",
-                  "fill": "#2A5F7C",
-                  "textGrowth": "fixed-width",
-                  "width": 300,
-                  "content": "Pegá tu ID de jugador, pagá y la recarga entra sola. Sin crear cuenta.",
-                  "lineHeight": 1.45,
-                  "textAlign": "center",
-                  "fontFamily": "Nunito",
-                  "fontSize": 16,
-                  "fontWeight": "normal"
+                  "type": "path",
+                  "id": "i3wav3",
+                  "x": 168,
+                  "y": 214,
+                  "name": "Destello",
+                  "geometry": "M12 0c1 7 5 11 12 12-7 1-11 5-12 12-1-7-5-11-12-12 7-1 11-5 12-12z",
+                  "viewBox": [
+                    0,
+                    0,
+                    24,
+                    24
+                  ],
+                  "fill": "#84B3CE",
+                  "width": 16,
+                  "height": 16
+                },
+                {
+                  "type": "path",
+                  "id": "H1FBeC",
+                  "x": 352,
+                  "y": 440,
+                  "name": "Destello",
+                  "geometry": "M12 0c1 7 5 11 12 12-7 1-11 5-12 12-1-7-5-11-12-12 7-1 11-5 12-12z",
+                  "viewBox": [
+                    0,
+                    0,
+                    24,
+                    24
+                  ],
+                  "fill": "#FFFFFF",
+                  "width": 18,
+                  "height": 18
+                },
+                {
+                  "type": "path",
+                  "id": "T11oM4",
+                  "x": 300,
+                  "y": 30,
+                  "name": "Destello",
+                  "geometry": "M12 0c1 7 5 11 12 12-7 1-11 5-12 12-1-7-5-11-12-12 7-1 11-5 12-12z",
+                  "viewBox": [
+                    0,
+                    0,
+                    24,
+                    24
+                  ],
+                  "fill": "#84B3CE",
+                  "width": 14,
+                  "height": 14
                 }
               ]
             },

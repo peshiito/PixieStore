@@ -41,20 +41,17 @@ uniform float u_waveHeight;
  */
 uniform float u_speed;
 
-float field(vec2 p, float t) {
-  float f = 0.0;
-  for (int i = 0; i < 9; i++) {
-    float fi = float(i);
-    vec2 c = vec2(
-      0.5 + 0.42 * sin(t * (0.21 + fi * 0.037) + fi * 1.7),
-      0.62 + 0.30 * cos(t * (0.17 + fi * 0.029) + fi * 2.3)
-    );
-    c.x *= u_resolution.x / u_resolution.y;
-    float r = 0.032 + 0.026 * mod(fi * 3.0, 4.0) / 3.0;
-    vec2 d = p - c;
-    f += r * r / dot(d, d);
-  }
-  return f;
+vec2 ballCenter(float fi, float t) {
+  vec2 c = vec2(
+    0.5 + 0.42 * sin(t * (0.21 + fi * 0.037) + fi * 1.7),
+    0.62 + 0.30 * cos(t * (0.17 + fi * 0.029) + fi * 2.3)
+  );
+  c.x *= u_resolution.x / u_resolution.y;
+  return c;
+}
+
+float ballRadius(float fi) {
+  return 0.032 + 0.026 * mod(fi * 3.0, 4.0) / 3.0;
 }
 
 void main() {
@@ -64,14 +61,29 @@ void main() {
 
   vec3 col = u_bg;
 
-  float f = field(p, t);
+  float f = 0.0;
+  float spec = 0.0;
+  for (int i = 0; i < 9; i++) {
+    float fi = float(i);
+    vec2 c = ballCenter(fi, t);
+    float r = ballRadius(fi);
+    vec2 d = p - c;
+    f += r * r / dot(d, d);
+    vec2 hp = d - vec2(-0.38, 0.38) * r;
+    spec = max(spec, smoothstep(r * 0.30, r * 0.05, length(hp * vec2(1.0, 1.35))));
+  }
+
   float edge = smoothstep(0.95, 1.05, f);
-  float rim = smoothstep(1.0, 1.6, f);
-  vec3 bubble = mix(u_bubble * 1.08, u_bubble, rim);
-  float gloss = smoothstep(1.25, 2.6, field(p + vec2(0.012, -0.018), t)) * 0.0;
-  col = mix(col, mix(bubble, u_bg, 0.45), edge * 0.8);
-  float ring = smoothstep(0.92, 1.0, f) - smoothstep(1.0, 1.08, f);
-  col = mix(col, vec3(1.0), ring * 0.85 + gloss);
+  float depth = smoothstep(1.0, 3.0, f);
+  vec3 body = mix(mix(u_bubble, u_bg, 0.55), mix(u_bubble, u_bg, 0.25), depth);
+  col = mix(col, body, edge * 0.85);
+
+  float ring = smoothstep(0.90, 1.0, f) - smoothstep(1.0, 1.12, f);
+  float hue = 6.2831 * (uv.x * 0.8 + uv.y * 0.6 + t * 0.05);
+  vec3 iri = 0.5 + 0.5 * cos(hue + vec3(0.0, 2.1, 4.2));
+  vec3 rimCol = mix(vec3(1.0), mix(u_bubble, iri, 0.35), 0.45);
+  col = mix(col, rimCol, ring * 0.9);
+  col = mix(col, vec3(1.0), spec * edge * 0.85);
 
   float h = u_waveHeight;
   float w1 = h + 0.035 * sin(uv.x * 6.0 + t * 0.9) + 0.02 * sin(uv.x * 11.0 - t * 1.3);
