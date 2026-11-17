@@ -152,69 +152,28 @@
               "id": "D9iAch",
               "name": "Wordmark",
               "width": 390,
-              "height": 236,
+              "height": 282,
               "layout": "none",
               "children": [
                 {
                   "type": "ellipse",
                   "id": "sAz2I",
-                  "x": 170,
-                  "y": 30,
+                  "x": 150,
+                  "y": -10,
                   "name": "Blob",
                   "fill": "#84B3CE40",
-                  "width": 260,
-                  "height": 200
-                },
-                {
-                  "type": "text",
-                  "id": "zXU9a",
-                  "x": 16,
-                  "y": 58,
-                  "name": "Pixie",
-                  "fill": "#16587B",
-                  "content": "Pixie",
-                  "lineHeight": 1,
-                  "fontFamily": "Modak",
-                  "fontSize": 122,
-                  "fontWeight": "normal",
-                  "letterSpacing": -3
-                },
-                {
-                  "type": "frame",
-                  "id": "atY5Z",
-                  "x": 24,
-                  "y": 188,
-                  "name": "Tag store",
-                  "rotation": 4,
-                  "fill": "#84B3CE",
-                  "cornerRadius": 999,
-                  "padding": [
-                    6,
-                    16
-                  ],
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "THYIa",
-                      "name": "L",
-                      "fill": "#0F4462",
-                      "content": "store de diamantes",
-                      "fontFamily": "Nunito",
-                      "fontSize": 15,
-                      "fontWeight": "900",
-                      "letterSpacing": 0.5
-                    }
-                  ]
+                  "width": 280,
+                  "height": 220
                 },
                 {
                   "type": "frame",
                   "id": "pP4Hb",
-                  "x": 262,
-                  "y": 6,
+                  "x": 200,
+                  "y": 4,
                   "name": "Logo sticker",
-                  "rotation": -10,
-                  "width": 106,
-                  "height": 106,
+                  "rotation": -8,
+                  "width": 164,
+                  "height": 164,
                   "fill": {
                     "type": "image",
                     "enabled": true,
@@ -242,6 +201,19 @@
                     },
                     "blur": 18
                   }
+                },
+                {
+                  "type": "text",
+                  "id": "qjDEm",
+                  "x": 20,
+                  "y": 178,
+                  "name": "Title",
+                  "fill": "#16587B",
+                  "content": "Tus diamantes,\nal toque",
+                  "lineHeight": 0.95,
+                  "fontFamily": "Modak",
+                  "fontSize": 50,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -257,16 +229,6 @@
                 20
               ],
               "children": [
-                {
-                  "type": "text",
-                  "id": "paDEU",
-                  "name": "Lead",
-                  "fill": "#16587B",
-                  "content": "Diamantes al toque.",
-                  "fontFamily": "Nunito",
-                  "fontSize": 22,
-                  "fontWeight": "900"
-                },
                 {
                   "type": "text",
                   "id": "XMayl",
