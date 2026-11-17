@@ -20,10 +20,12 @@ Etapa 1: diseño de pantallas (`webDesing.pen`, Pencil).
 8. Deploy
 
 ## Pantallas (Etapa 1)
+Diseño en `pixie-store.pen` (Pencil). Fondo de burbujas animado y animaciones con shaders en `assets/shaders/`.
+
 | Mobile | | |
 |---|---|---|
-| ![Hero](design/exports/m1-inicio-hero.png) | ![Inicio](design/exports/m2-inicio-scroll.png) | ![Carrito](design/exports/m3-carrito-datos.png) |
-| ![Pago](design/exports/m4-pago.png) | ![Estado](design/exports/m5-estado-pedido.png) | ![Seguir](design/exports/m6-seguir-pedido.png) |
-| ![Entregado](design/exports/m7-pedido-entregado.png) | ![Reseña](design/exports/m8-dejar-resena.png) | |
+| ![Inicio](design/exports/m1-inicio-completo.png) | ![Carrito](design/exports/m3-carrito-datos.png) | ![Pago](design/exports/m4-pago.png) |
+| ![Estado](design/exports/m5-estado-pedido.png) | ![Seguir](design/exports/m6-seguir-pedido.png) | ![Entregado](design/exports/m7-pedido-entregado.png) |
+| ![Reseña](design/exports/m8-dejar-resena.png) | | |
 
-Desktop: [Inicio](design/exports/d1-inicio.png) · [Carrito](design/exports/d2-carrito-drawer.png) · [Entregado](design/exports/d3-pedido-entregado.png) · [Sistema de diseño](design/exports/00-sistema-diseno.png)
+Desktop: [Inicio](design/exports/d1-inicio-completo.png) · [Carrito](design/exports/d2-carrito-drawer.png) · [Entregado](design/exports/d3-pedido-entregado.png) · [Sistema de diseño + motion](design/exports/00-sistema-diseno.png)
