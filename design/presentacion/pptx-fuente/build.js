@@ -61,12 +61,12 @@ const notes = (s, n) => s.addNotes(n);
   const s = pres.addSlide();
   s.background = { color: "94C2DE" };
   video(s, "ocean-surface.mp4", path.join(HERE, "../frames/surface/f0000.png"), { x: 0, y: 0, w: 13.333, h: 7.5 });
-  frosted(s, 0.75, 1.35, 6.4, 4.8);
-  pill(s, "PROPUESTA DE DISEÑO · ETAPA 1", 1.2, 1.8, 3.6, true);
-  s.addImage({ path: P + "/assets/hero/shop-logo.png", x: 1.25, y: 2.3, w: 1.55, h: (1.55 * 256) / 451, objectName: nm("a"), altText: "shop" });
-  s.addImage({ path: P + "/assets/hero/pixie-logo.png", x: 1.05, y: 2.95, w: 5.1, h: (5.1 * 418) / 1126, objectName: nm("a"), altText: "PIXIE" });
-  text(s, "Los precios que buscás, con la mejor tienda.", { x: 1.2, y: 4.95, w: 5.8, h: 0.5, fontSize: 20, bold: true, color: C.ink });
-  text(s, "Para Ezequiel · noviembre 2026", { x: 1.2, y: 5.72, w: 5.6, h: 0.4, fontSize: 15, bold: true, color: C.venice });
+  frosted(s, 0.75, 1.35, 6.4, 4.8, true);
+  pill(s, "PROPUESTA DE DISEÑO · ETAPA 1", 1.2, 1.8, 3.6, false);
+  s.addImage({ path: P + "/assets/hero/shop-logo-v2.png", x: 1.2, y: 2.25, w: 1.7, h: (1.7 * 651) / 1362, objectName: nm("a"), altText: "shop" });
+  s.addImage({ path: P + "/assets/hero/pixie-logo-v2.png", x: 1.0, y: 2.95, w: 5.2, h: (5.2 * 1271) / 3383, objectName: nm("a"), altText: "PIXIE" });
+  text(s, "Los precios que buscás, con la mejor tienda.", { x: 1.2, y: 4.95, w: 5.8, h: 0.5, fontSize: 20, bold: true, color: C.merino });
+  text(s, "Para Ezequiel · noviembre 2026", { x: 1.2, y: 5.72, w: 5.6, h: 0.4, fontSize: 15, bold: true, color: C.soft });
   s.addImage({ path: P + "/assets/logo-shop-pixie.png", x: 8.0, y: 1.25, w: 4.4, h: 4.4, rounding: true, objectName: nm("a"), altText: "Logo shop Pixie" });
   notes(s, "Arrancamos con la propuesta visual. El fondo es el agua animada que va a tener la página. Esta etapa es solo diseño: todavía no hay código.");
 }
@@ -234,7 +234,7 @@ const notes = (s, n) => s.addNotes(n);
   s.background = { color: C.venice };
   text(s, "ANIMACIONES", { x: 0.75, y: 0.6, w: 4, h: 0.4, fontSize: 14, bold: true, color: C.rock, charSpacing: 2 });
   title(s, "animaciones", 0.75, 1.05, 0.6);
-  s.addImage({ path: P + "/assets/hero/personaje.png", x: 10.9, y: 0.25, w: 1.7, h: 2.72, objectName: nm("a"), altText: "" });
+  s.addImage({ path: P + "/assets/hero/personaje-v2.png", x: 10.8, y: 0.25, w: 1.9, h: 2.7, objectName: nm("a"), altText: "" });
   const cards = [["Logo al header", "Al scrollear, la tarjeta se desliza fluida hasta la barra de arriba."], ["Océano con scroll", "El agua ondula y se vuelve más profunda al bajar."], ["Aparición", "Cada sección entra al llegar a la pantalla: carga solo lo que se ve."], ["Flotación y brillo", "El personaje flota y una luz cruza el botón de compra."]];
   cards.forEach(([h, d], i) => {
     const x = 0.75 + i * 3.05;
