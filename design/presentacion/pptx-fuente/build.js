@@ -1,5 +1,6 @@
 const pptxgen = require("pptxgenjs");
 const fs = require("fs");
+const { execFileSync } = require("child_process");
 const path = require("path");
 
 const P = "/home/pedro/Escritorio/Programacion/Proyectos/PixieShop";
@@ -13,6 +14,7 @@ const sizeOf = (f) => {
 
 const C = { merino: "F5EEDD", rock: "84B3CE", venice: "16587B", ink: "0F4462", deep: "123F57", abyss: "0B3A55", soft: "CFE2EC", white: "FFFFFF", mist: "E7EEEC" };
 const BODY = "Calibri";
+const FG = process.env.FG === "1";
 
 const pres = new pptxgen();
 pres.layout = "LAYOUT_WIDE";
@@ -43,6 +45,7 @@ function pill(slide, str, x, y, w, dark) {
   slide.addText(str, { isTextBox: true, shape: pres.shapes.ROUNDED_RECTANGLE, rectRadius: 0.2, x, y, w, h: 0.42, fill: { color: dark ? C.venice : C.rock }, color: dark ? C.merino : C.ink, fontFace: BODY, fontSize: 14, bold: true, align: "center", valign: "middle", margin: 0, objectName: nm("a") });
 }
 function video(slide, file, poster, o) {
+  if (FG) return;
   slide.addMedia({ type: "video", path: path.join(HERE, file), cover: poster ? "image/png;base64," + fs.readFileSync(poster).toString("base64") : undefined, objectName: "v_" + file, ...o });
 }
 function phone(slide, img, x, y, w, viewH) {
@@ -50,8 +53,20 @@ function phone(slide, img, x, y, w, viewH) {
   slide.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: x - 0.09, y: y - 0.09, w: w + 0.18, h: viewH + 0.18, rectRadius: 0.32, fill: { color: C.deep }, line: { type: "none" }, shadow: shadow(), objectName: nm("a") });
   order--;
   const h = (w * s.h) / s.w;
-  slide.addImage({ path: img, x, y, w, h: Math.min(h, viewH), sizing: { type: "crop", x: 0, y: 0, w, h: Math.min(h, viewH) }, objectName: nm("a"), altText: path.basename(img, ".png").replace(/-/g, " ") });
+  let file = img, hh = h;
+  if (h > viewH) {
+    const cropH = Math.round((s.w * viewH) / w);
+    file = path.join(HERE, "cache", "crop-" + path.basename(img));
+    execFileSync("magick", [img, "-crop", `${s.w}x${cropH}+0+0`, "+repage", file]);
+    hh = viewH;
+  }
+  slide.addImage({ path: file, x, y, w, h: hh, objectName: nm("a"), altText: path.basename(img, ".png").replace(/-/g, " ") });
   order--;
+}
+function circle(src) {
+  const out = path.join(HERE, "cache", "circle-" + path.basename(src));
+  if (!fs.existsSync(out)) execFileSync("magick", [src, "-alpha", "set", "-resize", "900x900^", "-gravity", "center", "-extent", "900x900", "(", "-size", "900x900", "xc:none", "-fill", "white", "-draw", "circle 450,450 450,6", ")", "-compose", "DstIn", "-composite", "PNG32:" + out]);
+  return out;
 }
 const notes = (s, n) => s.addNotes(n);
 
@@ -59,15 +74,15 @@ const notes = (s, n) => s.addNotes(n);
 {
   order = 0;
   const s = pres.addSlide();
-  s.background = { color: "94C2DE" };
-  video(s, "ocean-surface.mp4", path.join(HERE, "../frames/surface/f0000.png"), { x: 0, y: 0, w: 13.333, h: 7.5 });
+  s.background = FG ? { color: process.env.FGBG || "000000" } : { color: "94C2DE" };
+  video(s, "ocean-surface.mp4", path.join(HERE, "poster-surface.png"), { x: 0, y: 0, w: 13.333, h: 7.5 });
   frosted(s, 0.75, 1.35, 6.4, 4.8, true);
   pill(s, "PROPUESTA DE DISEÑO · ETAPA 1", 1.2, 1.8, 3.6, false);
   s.addImage({ path: P + "/assets/hero/shop-logo-v2.png", x: 1.2, y: 2.25, w: 1.7, h: (1.7 * 651) / 1362, objectName: nm("a"), altText: "shop" });
   s.addImage({ path: P + "/assets/hero/pixie-logo-v2.png", x: 1.0, y: 2.95, w: 5.2, h: (5.2 * 1271) / 3383, objectName: nm("a"), altText: "PIXIE" });
   text(s, "Los precios que buscás, con la mejor tienda.", { x: 1.2, y: 4.95, w: 5.8, h: 0.5, fontSize: 20, bold: true, color: C.merino });
   text(s, "Para Ezequiel · noviembre 2026", { x: 1.2, y: 5.72, w: 5.6, h: 0.4, fontSize: 15, bold: true, color: C.soft });
-  s.addImage({ path: P + "/assets/logo-shop-pixie.png", x: 8.0, y: 1.25, w: 4.4, h: 4.4, rounding: true, objectName: nm("a"), altText: "Logo shop Pixie" });
+  s.addImage({ path: circle(P + "/assets/logo-shop-pixie.png"), x: 8.0, y: 1.25, w: 4.4, h: 4.4, objectName: nm("a"), altText: "Logo shop Pixie" });
   notes(s, "Arrancamos con la propuesta visual. El fondo es el agua animada que va a tener la página. Esta etapa es solo diseño: todavía no hay código.");
 }
 
@@ -124,8 +139,8 @@ const notes = (s, n) => s.addNotes(n);
 {
   order = 0;
   const s = pres.addSlide();
-  s.background = { color: C.venice };
-  video(s, "ocean-descent.mp4", path.join(HERE, "../frames/descent/f0000.png"), { x: 0, y: 0, w: 13.333, h: 7.5 });
+  s.background = FG ? { color: process.env.FGBG || "000000" } : { color: C.venice };
+  video(s, "ocean-descent.mp4", path.join(HERE, "poster-descent.png"), { x: 0, y: 0, w: 13.333, h: 7.5 });
   frosted(s, 0.75, 0.75, 6.3, 6.0);
   text(s, "EL FONDO", { x: 1.2, y: 1.15, w: 4, h: 0.4, fontSize: 14, bold: true, color: C.venice, charSpacing: 2 });
   order--;
@@ -221,7 +236,7 @@ const notes = (s, n) => s.addNotes(n);
   text(s, "EN COMPUTADORA", { x: 8.6, y: 1.0, w: 4, h: 0.4, fontSize: 14, bold: true, color: C.venice, charSpacing: 2 });
   title(s, "desktop", 8.6, 1.45, 0.34);
   text(s, "Título y botones a la izquierda, tarjeta póster a la derecha. Paquetes en dos columnas.", { x: 8.6, y: 2.0, w: 4.1, h: 0.9, fontSize: 15, color: C.deep });
-  s.addImage({ path: EX + "d2-carrito-drawer.png", x: 8.6, y: 3.05, w: 4.0, h: 2.5, rounding: false, objectName: nm("a"), altText: "Carrito como panel lateral" });
+  s.addImage({ path: EX + "d2-carrito-drawer.png", x: 8.6, y: 3.05, w: 4.0, h: 2.5, objectName: nm("a"), altText: "Carrito como panel lateral" });
   text(s, "Carrito como panel a la derecha", { x: 8.6, y: 5.65, w: 4, h: 0.4, fontSize: 13, color: C.deep });
   order--;
   notes(s, "En computadora el carrito se abre como panel lateral y el agradecimiento muestra el mensaje a la izquierda y el logo a la derecha, como en tu boceto.");
@@ -285,13 +300,13 @@ const notes = (s, n) => s.addNotes(n);
 {
   order = 0;
   const s = pres.addSlide();
-  s.background = { color: C.abyss };
-  video(s, "ocean-deep.mp4", path.join(HERE, "../frames/deep/f0000.png"), { x: 0, y: 0, w: 13.333, h: 7.5 });
-  s.addImage({ path: P + "/assets/logo-shop-pixie.png", x: 5.29, y: 0.9, w: 2.75, h: 2.75, rounding: true, objectName: nm("a"), altText: "Logo shop Pixie" });
+  s.background = FG ? { color: process.env.FGBG || "000000" } : { color: C.abyss };
+  video(s, "ocean-deep.mp4", path.join(HERE, "poster-deep.png"), { x: 0, y: 0, w: 13.333, h: 7.5 });
+  s.addImage({ path: circle(P + "/assets/logo-shop-pixie.png"), x: 5.29, y: 0.9, w: 2.75, h: 2.75, objectName: nm("a"), altText: "Logo shop Pixie" });
   const g = sizeOf(T("gracias"));
   s.addImage({ path: T("gracias"), x: (13.333 - (1.25 * g.w) / g.h) / 2, y: 4.0, h: 1.25, w: (1.25 * g.w) / g.h, objectName: nm("a"), altText: "¡Gracias!" });
   text(s, "¿Qué te gustó y qué cambiarías?", { x: 2.5, y: 5.6, w: 8.333, h: 0.6, fontSize: 24, bold: true, color: C.soft, align: "center" });
   notes(s, "Cerramos con preguntas. Lo que ajustemos acá se aplica antes de empezar a programar.");
 }
 
-pres.writeFile({ fileName: path.join(HERE, "raw.pptx") }).then((f) => console.log("written", f));
+pres.writeFile({ fileName: path.join(HERE, FG ? "fg.pptx" : "raw.pptx") }).then((f) => console.log("written", f));
